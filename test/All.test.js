@@ -14,7 +14,7 @@ for(let l = 0; l < loaderKeys.length; l++){
           Component = section[name]
     describe(`${sectionName}::${name}`, () => {
       const component = renderer.create(
-        <Component />
+        <Component className='test' style={{height: '100px', width: '100px'}} />
       );
 
       let tree;
@@ -23,6 +23,16 @@ for(let l = 0; l < loaderKeys.length; l++){
         tree = component.toJSON();
         expect(tree).toMatchSnapshot();
       });
+
+      it('should accept additional classNames', () => {
+        expect(tree.props.className).toMatch(/\s+test$/)
+      })
+
+      it('should accept all other standard props', () => {
+        expect(tree.props.style).toBeTruthy()
+        expect(tree.props.style.height).toBe('100px')
+        expect(tree.props.style.width).toBe('100px')
+      })
 
     });
   }

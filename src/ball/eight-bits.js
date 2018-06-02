@@ -1,11 +1,17 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 
 import 'load-awesome/css/ball-8bits.css';
 
 export default class EightBits extends Component {
+  static propTypes = {
+    className: PropTypes.string
+  }
+
   render() {
-    return (
-      <div className="la-ball-8bits la-2x">
+    const {className, ...props} = this.props
+    return(
+      <div className={`la-ball-8bits la-2x ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

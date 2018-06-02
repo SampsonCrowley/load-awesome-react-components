@@ -1,6 +1,6 @@
 {
   "name": "load-awesome-react-components",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "React Components for Load Awesome Spinners",
   "main": "build/rrpm.js",
   "module": "build/rrpm.module.js",
@@ -31,7 +31,6 @@
   "dependencies": {
     "clone": "^2.1.1",
     "load-awesome": "^1.1.0",
-    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
@@ -49,6 +48,7 @@
     "jest": "^22.4.0",
     "node-sass": "^4.7.2",
     "postcss-scss": "^1.0.3",
+    "prop-types": "^15.6.1",
     "react-test-renderer": "^16.2.0",
     "rollup": "^0.56.2",
     "rollup-plugin-babel": "^3.0.3",

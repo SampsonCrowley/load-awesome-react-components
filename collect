@@ -1,0 +1,9 @@
+for dir in */; do
+  idx_file="$(echo "$dir" | sed 's,/,.,')index.js"
+  touch "$idx_file"
+  cd "$dir"
+  for file in *.js; do
+    echo "import PLACEHOLDER from './$file'" >> "../$idx_file"
+  done
+  cd ..
+done

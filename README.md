@@ -1,3 +1,223 @@
+# load-awesome-react-components
+[![](https://badge.fury.io/js/load-awesome-react-components.svg)](https://www.npmjs.com/package/load-awesome-react-components)
+
+[![](https://nodei.co/npm/load-awesome-react-components.png)](https://www.npmjs.com/package/load-awesome-react-components)
+
+### React Components for Load Awesome
+
+React Components for the fantastic `Load Awesome` CSS library
+
+```jsx
+import React, {Component} from 'react';
+import LoadAwesomeComponents from 'load-awesome-react-components';
+
+class ComponentWithAwesomeLoader extends Component {
+  render() {
+    return (
+      <LoadAwesomeComponents.Ball.Atom />
+    )
+  }
+}
+```
+
+Components are broken up into categories:
+
+#### Ball
+
+```jsx
+import { Ball } from 'load-awesome-react-components';
+
+const {
+  Atom,
+  Beat,
+  Circus,
+  ClimbingDot,
+  ClipRotate,
+  ClipRotateMultiple,
+  ClipRotatePulse,
+  EightBits,
+  ElasticDots,
+  Fall,
+  Fusion,
+  GridBeat,
+  GridPulse,
+  NewtonCradle,
+  Pulse,
+  PulseRise,
+  PulseSync,
+  Rotate,
+  RunningDots,
+  Scale,
+  ScaleMultiple,
+  ScalePulse,
+  ScaleRipple,
+  ScaleRippleMultiple,
+  SpinClockwise,
+  SpinClockwiseFade,
+  SpinClockwiseFadeRotating,
+  SpinFade,
+  SpinFadeRotating,
+  Spin,
+  SpinRotate,
+  SquareSpin,
+  SquareClockwiseSpin,
+  TrianglePath,
+  ZigZag,
+  ZigZagDeflect,
+} = Ball
+
+class BallLoaders extends Component {
+  render() {
+    return (
+      <div>
+        <Atom />
+        <Beat />
+        <Circus />
+        <ClimbingDot />
+        <ClipRotate />
+        <ClipRotateMultiple />
+        <ClipRotatePulse />
+        <EightBits />
+        <ElasticDots />
+        <Fall />
+        <Fusion />
+        <GridBeat />
+        <GridPulse />
+        <NewtonCradle />
+        <Pulse />
+        <PulseRise />
+        <PulseSync />
+        <Rotate />
+        <RunningDots />
+        <Scale />
+        <ScaleMultiple />
+        <ScalePulse />
+        <ScaleRipple />
+        <ScaleRippleMultiple />
+        <SpinClockwise />
+        <SpinClockwiseFade />
+        <SpinClockwiseFadeRotating />
+        <SpinFade />
+        <SpinFadeRotating />
+        <Spin />
+        <SpinRotate />
+        <SquareSpin />
+        <SquareClockwiseSpin />
+        <TrianglePath />
+        <ZigZag />
+        <ZigZagDeflect />
+      </div>
+    )
+  }
+}
+```
+
+#### Line
+
+```jsx
+import { Line } from 'load-awesome-react-components';
+
+const {
+  Scale,
+  ScaleParty,
+  ScalePulseOut,
+  ScalePulseOutRapid,
+  SpinClockwiseFade,
+  SpinClockwiseFadeRotating,
+  SpinFade,
+  SpinFadeRotating,
+} = Line
+
+class LineLoaders extends Component {
+  render() {
+    return (
+      <div>
+        <Scale />
+        <ScaleParty />
+        <ScalePulseOut />
+        <ScalePulseOutRapid />
+        <SpinClockwiseFade />
+        <SpinClockwiseFadeRotating />
+        <SpinFade />
+        <SpinFadeRotating />
+      </div>
+    )
+  }
+}
+```
+
+#### Misc
+
+```jsx
+import { Misc } from 'load-awesome-react-components';
+
+const {
+  Cog,
+  CubeTransition,
+  Fire,
+  Pacman,
+  Timer,
+} = Misc
+
+class MiscLoaders extends Component {
+  render() {
+    return (
+      <div>
+        <Cog />
+        <CubeTransition />
+        <Fire />
+        <Pacman />
+        <Timer />
+      </div>
+    )
+  }
+}
+```
+
+#### Square
+
+```jsx
+import { Square } from 'load-awesome-react-components';
+
+const {
+  JellyBox,
+  Loader,
+  Spin,
+} = Square
+
+class SquareLoaders extends Component {
+  render() {
+    return (
+      <div>
+        <JellyBox />
+        <Loader />
+        <Spin />
+      </div>
+    )
+  }
+}
+```
+
+#### Triangle
+
+```jsx
+import { Triangle } from 'load-awesome-react-components';
+
+const {
+  SkewSpin,
+} = Triangle
+
+class TriangleLoaders extends Component {
+  render() {
+    return (
+      <div>
+        <SkewSpin />
+      </div>
+    )
+  }
+}
+```
+
 # [Load Awesome](http://github.danielcardoso.net/load-awesome/)
 
 ### An awesome collection of — Pure CSS — Loaders and Spinners
@@ -5,83 +225,7 @@
 A full suite of **53 animations** for websites,
 created and maintained by [Daniel Cardoso](http://www.danielcardoso.net).
 
-![Bower version](https://img.shields.io/bower/v/load-awesome.svg?style=flat-square)
-![Issues](https://img.shields.io/github/issues/danielcardoso/load-awesome.svg?style=flat-square)
-![License](https://img.shields.io/github/license/danielcardoso/load-awesome.svg?style=flat-square)
-[![devDependency Status](https://img.shields.io/david/dev/danielcardoso/load-awesome.svg?style=flat-square)](https://david-dm.org/danielcardoso/load-awesome#info=devDependencies)
-
-
-## Table of contents
-- [Browser Support](#browser-support)
-- [Quick start](#quick-start)
-- [Usage](#usage)
-- [Customising](#customising)
-- [Versioning](#versioning)
-- [Creator](#creator)
-- [License](#license)
-
-
-## Browser Support
-![Chrome](https://raw.github.com/alrra/browser-logos/master/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/firefox/firefox_48x48.png) | ![IE](https://raw.github.com/alrra/browser-logos/master/internet-explorer/internet-explorer_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/opera/opera_48x48.png)
---- | --- | --- | --- | --- |
-Latest ✔ | Latest ✔ | 10+ ✔ | Latest ✔ | Latest ✔ |
-
-
-## Quick start
-Several quick start options are available:
-- [Download the latest release](https://github.com/danielcardoso/load-awesome/releases/latest)
-- Clone the repo: `git clone https://github.com/danielcardoso/load-awesome.git`
-- Install with [Bower](http://bower.io): `bower install load-awesome`
-
-
-## Usage
-#### Standard
-- Include specific css file (e.g. `ball-atom.css`)
-- Create an element and add the animation class (e.g. `<div class="la-ball-atom"></div>`)
-- Insert the appropriate number of childrens `<div>`s into the previous element
-
-
-## Customising
-#### Changing all colors
-Add styles to the main:
-``` css
-.la-ball-atom {
-    color: #79bbb5;
-}
-```
-
-
-
-#### Changing color of specific elements
-Add styles to the correct child `div` elements:
-``` css
-.la-ball-atom > div:nth-child(1) {
-    color: #f4696b;
-}
-.la-ball-atom > div:nth-child(2) {
-    color: #87c4a3;
-}
-.la-ball-atom > div:nth-child(3) {
-    color: #fec54f;
-}
-```
-
-
-## Versioning
-Load Awesome will be maintained under the Semantic Versioning guidelines.
-Releases will be numbered with the following format:
-
-`<major>.<minor>.<patch>`
-
-For more information on SemVer, please visit http://semver.org.
-
-
-## Creator
-#### [Daniel Cardoso](http://www.danielcardoso.net)
-- [@Twitter](https://twitter.com/DanielCardoso)
-- [@GitHub](https://github.com/DanielCardoso)
-
-
 ## License
 #### The MIT License (MIT)
 Copyright (c) 2015 DanielCardoso.net
+Copyright (c) 2018 Sampson Crowley

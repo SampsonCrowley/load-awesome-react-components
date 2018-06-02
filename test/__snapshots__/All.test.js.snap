@@ -1,0 +1,611 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ball::Atom should render correctly 1`] = `
+<div
+  className="la-ball-atom la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::Beat should render correctly 1`] = `
+<div
+  className="la-ball-beat la-2x"
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::Circus should render correctly 1`] = `
+<div
+  className="la-ball-circus la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::ClimbingDot should render correctly 1`] = `
+<div
+  className="la-ball-climbing-dot la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::ClipRotate should render correctly 1`] = `
+<div
+  className="la-ball-clip-rotate la-2x"
+>
+  <div />
+</div>
+`;
+
+exports[`Ball::ClipRotateMultiple should render correctly 1`] = `
+<div
+  className="la-ball-clip-rotate-multiple la-2x"
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::ClipRotatePulse should render correctly 1`] = `
+<div
+  className="la-ball-clip-rotate-pulse la-2x"
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::EightBits should render correctly 1`] = `
+<div
+  className="la-ball-8bits la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::ElasticDots should render correctly 1`] = `
+<div
+  className="la-ball-elastic-dots la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::Fall should render correctly 1`] = `
+<div
+  className="la-ball-fall la-2x"
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::Fusion should render correctly 1`] = `
+<div
+  className="la-ball-fussion la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::GridBeat should render correctly 1`] = `
+<div
+  className="la-ball-grid-beat la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::GridPulse should render correctly 1`] = `
+<div
+  className="la-ball-grid-pulse la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::NewtonCradle should render correctly 1`] = `
+<div
+  className="la-ball-newton-cradle la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::Pulse should render correctly 1`] = `
+<div
+  className="la-ball-pulse la-2x"
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::PulseRise should render correctly 1`] = `
+<div
+  className="la-ball-pulse-rise la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::PulseSync should render correctly 1`] = `
+<div
+  className="la-ball-pulse-sync la-2x"
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::Rotate should render correctly 1`] = `
+<div
+  className="la-ball-rotate la-2x"
+>
+  <div />
+</div>
+`;
+
+exports[`Ball::RunningDots should render correctly 1`] = `
+<div
+  className="la-ball-running-dots la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::Scale should render correctly 1`] = `
+<div
+  className="la-ball-scale la-2x"
+>
+  <div />
+</div>
+`;
+
+exports[`Ball::ScaleMultiple should render correctly 1`] = `
+<div
+  className="la-ball-scale la-2x"
+>
+  <div />
+</div>
+`;
+
+exports[`Ball::ScalePulse should render correctly 1`] = `
+<div
+  className="la-ball-scale-pulse la-2x"
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::ScaleRipple should render correctly 1`] = `
+<div
+  className="la-ball-scale-ripple la-2x"
+>
+  <div />
+</div>
+`;
+
+exports[`Ball::ScaleRippleMultiple should render correctly 1`] = `
+<div
+  className="la-ball-scale-ripple-multiple la-2x"
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::Spin should render correctly 1`] = `
+<div
+  className="la-ball-spin la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::SpinClockwise should render correctly 1`] = `
+<div
+  className="la-ball-spin-clockwise la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::SpinClockwiseFade should render correctly 1`] = `
+<div
+  className="la-ball-spin-clockwise-fade la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::SpinClockwiseFadeRotating should render correctly 1`] = `
+<div
+  className="la-ball-spin-clockwise-fade-rotating la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::SpinFade should render correctly 1`] = `
+<div
+  className="la-ball-spin-fade la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::SpinFadeRotating should render correctly 1`] = `
+<div
+  className="la-ball-spin-fade-rotating la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::SpinRotate should render correctly 1`] = `
+<div
+  className="la-ball-spin-rotate la-2x"
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::SquareClockwiseSpin should render correctly 1`] = `
+<div
+  className="la-ball-square-clockwise-spin la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::SquareSpin should render correctly 1`] = `
+<div
+  className="la-ball-square-spin la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::TrianglePath should render correctly 1`] = `
+<div
+  className="la-ball-triangle-path la-2x"
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::ZigZag should render correctly 1`] = `
+<div
+  className="la-ball-zig-zag la-2x"
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Ball::ZigZagDeflect should render correctly 1`] = `
+<div
+  className="la-ball-zig-zag-deflect la-2x"
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Line::Scale should render correctly 1`] = `
+<div
+  className="la-line-scale la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Line::ScaleParty should render correctly 1`] = `
+<div
+  className="la-line-scale-party la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Line::ScalePulseOut should render correctly 1`] = `
+<div
+  className="la-line-scale-pulse-out la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Line::ScalePulseOutRapid should render correctly 1`] = `
+<div
+  className="la-line-scale-pulse-out-rapid la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Line::SpinClockwiseFade should render correctly 1`] = `
+<div
+  className="la-line-spin-clockwise-fade la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Line::SpinClockwiseFadeRotating should render correctly 1`] = `
+<div
+  className="la-line-spin-clockwise-fade-rotating la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Line::SpinFade should render correctly 1`] = `
+<div
+  className="la-line-spin-fade la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Line::SpinFadeRotating should render correctly 1`] = `
+<div
+  className="la-line-spin-fade-rotating la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Misc::Cog should render correctly 1`] = `
+<div
+  className="la-cog la-2x"
+>
+  <div />
+</div>
+`;
+
+exports[`Misc::CubeTransition should render correctly 1`] = `
+<div
+  className="la-cube-transition la-2x"
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Misc::Fire should render correctly 1`] = `
+<div
+  className="la-fire la-2x"
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Misc::Pacman should render correctly 1`] = `
+<div
+  className="la-pacman la-2x"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Misc::Timer should render correctly 1`] = `
+<div
+  className="la-timer la-2x"
+>
+  <div />
+</div>
+`;
+
+exports[`Square::JellyBox should render correctly 1`] = `
+<div
+  className="la-square-jelly-box la-2x"
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Square::Loader should render correctly 1`] = `
+<div
+  className="la-square-loader la-2x"
+>
+  <div />
+</div>
+`;
+
+exports[`Square::Spin should render correctly 1`] = `
+<div
+  className="la-square-spin la-2x"
+>
+  <div />
+</div>
+`;
+
+exports[`Triangle::SkewSpin should render correctly 1`] = `
+<div
+  className="la-triangle-skew-spin la-2x"
+>
+  <div />
+</div>
+`;

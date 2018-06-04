@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-clip-rotate-multiple.css'
+import 'load-awesome-relative/css/ball-clip-rotate-multiple.css'
 
 export default class ClipRotateMultiple extends Component {
   static propTypes = {

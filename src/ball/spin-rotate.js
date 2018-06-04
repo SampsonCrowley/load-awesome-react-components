@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-spin-rotate.css'
+import 'load-awesome-relative/css/ball-spin-rotate.css'
 
 export default class SpinRotate extends Component {
   static propTypes = {

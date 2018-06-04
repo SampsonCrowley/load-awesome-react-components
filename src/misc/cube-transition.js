@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/cube-transition.css'
+import 'load-awesome-relative/css/cube-transition.css'
 
 export default class CubeTransition extends Component {
   static propTypes = {

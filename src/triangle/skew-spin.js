@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/triangle-skew-spin.css'
+import 'load-awesome-relative/css/triangle-skew-spin.css'
 
 export default class SkewSpin extends Component {
   static propTypes = {

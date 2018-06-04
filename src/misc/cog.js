@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/cog.css'
+import 'load-awesome-relative/css/cog.css'
 
 export default class Cog extends Component {
   static propTypes = {

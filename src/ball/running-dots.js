@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-running-dots.css'
+import 'load-awesome-relative/css/ball-running-dots.css'
 
 export default class RunningDots extends Component {
   static propTypes = {

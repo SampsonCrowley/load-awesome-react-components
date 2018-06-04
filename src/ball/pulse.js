@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-pulse.css'
+import 'load-awesome-relative/css/ball-pulse.css'
 
 export default class Pulse extends Component {
   static propTypes = {

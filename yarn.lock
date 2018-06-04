@@ -3351,9 +3351,9 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-load-awesome@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/load-awesome/-/load-awesome-1.1.0.tgz#5b99cabb28dfaa55bf4446f658c1badcb68eca98"
+load-awesome-relative@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/load-awesome-relative/-/load-awesome-relative-0.0.1.tgz#3ffa8d42a881154e8f21c8d84dbff16d23559df4"
 
 load-json-file@^1.0.0:
   version "1.1.0"

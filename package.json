@@ -1,6 +1,6 @@
 {
   "name": "load-awesome-react-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Components for Load Awesome Spinners",
   "main": "build/rrpm.js",
   "module": "build/rrpm.module.js",
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/SampsonCrowley/load-awesome-react-components#readme",
   "dependencies": {
     "clone": "^2.1.1",
-    "load-awesome": "^1.1.0",
+    "load-awesome-relative": "^0.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },

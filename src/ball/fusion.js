@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-fussion.css'
+import 'load-awesome-relative/css/ball-fussion.css'
 
 export default class Fusion extends Component {
   static propTypes = {

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-elastic-dots.css'
+import 'load-awesome-relative/css/ball-elastic-dots.css'
 
 export default class ElasticDots extends Component {
   static propTypes = {

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-clip-rotate.css'
+import 'load-awesome-relative/css/ball-clip-rotate.css'
 
 export default class ClipRotate extends Component {
   static propTypes = {

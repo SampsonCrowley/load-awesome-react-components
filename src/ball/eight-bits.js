@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-8bits.css';
+import 'load-awesome-relative/css/ball-8bits.css';
 
 export default class EightBits extends Component {
   static propTypes = {

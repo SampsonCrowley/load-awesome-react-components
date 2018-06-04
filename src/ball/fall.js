@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-fall.css'
+import 'load-awesome-relative/css/ball-fall.css'
 
 export default class Fall extends Component {
   static propTypes = {

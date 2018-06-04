@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-scale-ripple.css'
+import 'load-awesome-relative/css/ball-scale-ripple.css'
 
 export default class ScaleRipple extends Component {
   static propTypes = {

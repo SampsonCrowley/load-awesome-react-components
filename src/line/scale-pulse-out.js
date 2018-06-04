@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/line-scale-pulse-out.css'
+import 'load-awesome-relative/css/line-scale-pulse-out.css'
 
 export default class ScalePulseOut extends Component {
   static propTypes = {

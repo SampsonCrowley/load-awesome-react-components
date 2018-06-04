@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/line-spin-clockwise-fade-rotating.css'
+import 'load-awesome-relative/css/line-spin-clockwise-fade-rotating.css'
 
 export default class SpinClockwiseFadeRotating extends Component {
   static propTypes = {

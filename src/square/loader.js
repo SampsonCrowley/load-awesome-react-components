@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/square-loader.css'
+import 'load-awesome-relative/css/square-loader.css'
 
 export default class Loader extends Component {
   static propTypes = {

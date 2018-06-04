@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/line-scale.css'
+import 'load-awesome-relative/css/line-scale.css'
 
 export default class Scale extends Component {
   static propTypes = {

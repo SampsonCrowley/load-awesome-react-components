@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/fire.css'
+import 'load-awesome-relative/css/fire.css'
 
 export default class Fire extends Component {
   static propTypes = {

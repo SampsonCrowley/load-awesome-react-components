@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-atom.css'
+import 'load-awesome-relative/css/ball-atom.css'
 
 export default class Atom extends Component {
   static propTypes = {

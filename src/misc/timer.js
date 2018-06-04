@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/timer.css'
+import 'load-awesome-relative/css/timer.css'
 
 export default class Timer extends Component {
   static propTypes = {

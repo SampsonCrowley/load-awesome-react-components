@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/line-scale-party.css'
+import 'load-awesome-relative/css/line-scale-party.css'
 
 export default class ScaleParty extends Component {
   static propTypes = {

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-triangle-path.css'
+import 'load-awesome-relative/css/ball-triangle-path.css'
 
 export default class TrianglePath extends Component {
   static propTypes = {

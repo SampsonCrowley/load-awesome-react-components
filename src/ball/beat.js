@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-beat.css'
+import 'load-awesome-relative/css/ball-beat.css'
 
 export default class Beat extends Component {
   static propTypes = {

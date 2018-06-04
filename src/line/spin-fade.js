@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/line-spin-fade.css'
+import 'load-awesome-relative/css/line-spin-fade.css'
 
 export default class SpinFade extends Component {
   static propTypes = {

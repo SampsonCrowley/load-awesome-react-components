@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-zig-zag-deflect.css'
+import 'load-awesome-relative/css/ball-zig-zag-deflect.css'
 
 export default class ZigZagDeflect extends Component {
   static propTypes = {

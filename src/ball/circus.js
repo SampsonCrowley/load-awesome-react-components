@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome/css/ball-circus.css'
+import 'load-awesome-relative/css/ball-circus.css'
 
 export default class Circus extends Component {
   static propTypes = {

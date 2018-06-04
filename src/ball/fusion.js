@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import 'load-awesome-relative/css/ball-fussion.css'
+import 'load-awesome-relative/css/ball-fusion.css'
 
 export default class Fusion extends Component {
   static propTypes = {
@@ -11,7 +11,7 @@ export default class Fusion extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-fussion la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-fusion ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

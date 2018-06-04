@@ -11,7 +11,7 @@ export default class GridPulse extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-grid-pulse la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-grid-pulse ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

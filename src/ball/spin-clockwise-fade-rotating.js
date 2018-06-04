@@ -11,7 +11,7 @@ export default class SpinClockwiseFadeRotating extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-spin-clockwise-fade-rotating la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-spin-clockwise-fade-rotating ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

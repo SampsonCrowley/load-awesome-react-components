@@ -11,7 +11,7 @@ export default class PulseRise extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-pulse-rise la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-pulse-rise ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

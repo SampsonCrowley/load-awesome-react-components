@@ -11,7 +11,7 @@ export default class SkewSpin extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-triangle-skew-spin la-2x ${className || ''}`} {...props}>
+      <div className={`la-triangle-skew-spin ${className || ''}`} {...props}>
         <div></div>
       </div>
     )

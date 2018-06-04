@@ -11,7 +11,7 @@ export default class ScaleRipple extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-scale-ripple la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-scale-ripple ${className || ''}`} {...props}>
         <div></div>
       </div>
     )

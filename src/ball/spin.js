@@ -11,7 +11,7 @@ export default class Spin extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-spin la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-spin ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

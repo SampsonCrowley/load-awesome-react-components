@@ -11,7 +11,7 @@ export default class TrianglePath extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-triangle-path la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-triangle-path ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

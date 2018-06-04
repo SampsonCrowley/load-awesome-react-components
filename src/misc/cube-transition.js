@@ -11,7 +11,7 @@ export default class CubeTransition extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-cube-transition la-2x ${className || ''}`} {...props}>
+      <div className={`la-cube-transition ${className || ''}`} {...props}>
         <div></div>
         <div></div>
       </div>

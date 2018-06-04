@@ -11,7 +11,7 @@ export default class Loader extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-square-loader la-2x ${className || ''}`} {...props}>
+      <div className={`la-square-loader ${className || ''}`} {...props}>
         <div></div>
       </div>
     )

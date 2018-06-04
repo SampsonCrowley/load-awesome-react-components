@@ -11,7 +11,7 @@ export default class SpinFadeRotating extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-line-spin-fade-rotating la-2x ${className || ''}`} {...props}>
+      <div className={`la-line-spin-fade-rotating ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

@@ -11,7 +11,7 @@ export default class RunningDots extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-running-dots la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-running-dots ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

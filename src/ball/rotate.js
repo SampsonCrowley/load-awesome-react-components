@@ -11,7 +11,7 @@ export default class Rotate extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-rotate la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-rotate ${className || ''}`} {...props}>
         <div></div>
       </div>
     )

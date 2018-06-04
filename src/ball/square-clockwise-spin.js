@@ -11,7 +11,7 @@ export default class SquareClockwiseSpin extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-square-clockwise-spin la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-square-clockwise-spin ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

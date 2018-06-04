@@ -11,7 +11,7 @@ export default class NewtonCradle extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-newton-cradle la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-newton-cradle ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

@@ -1,11 +1,11 @@
 {
   "name": "load-awesome-react-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Components for Load Awesome Spinners",
   "main": "build/rrpm.js",
   "module": "build/rrpm.module.js",
   "scripts": {
-    "test": "jest --no-cache",
+    "test": "yarn build; jest --no-cache",
     "build": "rollup -c rollup.config.babel.js",
     "watch": "rollup -c rollup.config.babel.js -w",
     "start": "npm run watch"

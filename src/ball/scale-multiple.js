@@ -11,7 +11,7 @@ export default class ScaleMultiple extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-scale la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-scale ${className || ''}`} {...props}>
         <div></div>
       </div>
     )

@@ -11,7 +11,7 @@ export default class ScalePulseOutRapid extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-line-scale-pulse-out-rapid la-2x ${className || ''}`} {...props}>
+      <div className={`la-line-scale-pulse-out-rapid ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

@@ -11,7 +11,7 @@ export default class EightBits extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-8bits la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-8bits ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

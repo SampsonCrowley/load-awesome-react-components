@@ -11,7 +11,7 @@ export default class Scale extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-line-scale la-2x ${className || ''}`} {...props}>
+      <div className={`la-line-scale ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

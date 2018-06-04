@@ -11,7 +11,7 @@ export default class ZigZagDeflect extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-zig-zag-deflect la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-zig-zag-deflect ${className || ''}`} {...props}>
         <div></div>
         <div></div>
       </div>

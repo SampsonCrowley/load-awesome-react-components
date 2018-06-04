@@ -11,7 +11,7 @@ export default class PulseSync extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-ball-pulse-sync la-2x ${className || ''}`} {...props}>
+      <div className={`la-ball-pulse-sync ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

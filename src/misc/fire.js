@@ -11,7 +11,7 @@ export default class Fire extends Component {
   render() {
     const {className, ...props} = this.props
     return(
-      <div className={`la-fire la-2x ${className || ''}`} {...props}>
+      <div className={`la-fire ${className || ''}`} {...props}>
         <div></div>
         <div></div>
         <div></div>

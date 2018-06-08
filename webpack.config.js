@@ -35,7 +35,7 @@ module.exports = {
             loader: 'url-loader',
             options:{
               fallback: "file-loader",
-              name: "[name][md5:hash].[ext]",
+              name: "[name].[md5:hash].[ext]",
               outputPath: 'assets/',
               publicPath: '/assets/'
             }
@@ -53,7 +53,9 @@ module.exports = {
       },
       {
         test: /\.(js|jsx)$/,
-        use: ["babel-loader"],
+        use: {
+          loader: 'babel-loader'
+        }
         include: path.resolve(__dirname, "src"),
         exclude: /node_modules/,
       },

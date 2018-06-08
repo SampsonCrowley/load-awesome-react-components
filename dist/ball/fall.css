@@ -1,0 +1,262 @@
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall,
+.la-ball-fall > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 54px;
+  height: 18px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border-radius: 100%;
+  opacity: 0;
+  animation: ball-fall 1s ease-in-out infinite;
+}
+
+/* line 39 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall >div:nth-child(1) {
+  animation-delay: -200ms;
+}
+
+/* line 42 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall >div:nth-child(2) {
+  animation-delay: -100ms;
+}
+
+/* line 45 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall >div:nth-child(3) {
+  animation-delay: 0ms;
+}
+
+/* line 48 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall.la-sm {
+  width: 26px;
+  height: 8px;
+}
+
+/* line 52 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall.la-sm >div {
+  width: 4px;
+  height: 4px;
+  margin: 2px;
+}
+
+/* line 57 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall.la-2x {
+  width: 108px;
+  height: 36px;
+}
+
+/* line 61 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall.la-2x >div {
+  width: 20px;
+  height: 20px;
+  margin: 8px;
+}
+
+/* line 66 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall.la-3x {
+  width: 162px;
+  height: 54px;
+}
+
+/* line 70 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+.la-ball-fall.la-3x >div {
+  width: 30px;
+  height: 30px;
+  margin: 12px;
+}
+
+/* line 75 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+/*
+ * Animation
+ */
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+@-moz-keyframes ball-fall {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  0% {
+    opacity: 0;
+    transform: translateY(-145%);
+  }
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  10% {
+    opacity: 0.5;
+  }
+
+/* line 87 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+/* line 91 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+/* line 95 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  90% {
+    opacity: 0.5;
+  }
+
+/* line 98 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  100% {
+    opacity: 0;
+    transform: translateY(145%);
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+@-webkit-keyframes ball-fall {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  0% {
+    opacity: 0;
+    transform: translateY(-145%);
+  }
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  10% {
+    opacity: 0.5;
+  }
+
+/* line 87 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+/* line 91 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+/* line 95 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  90% {
+    opacity: 0.5;
+  }
+
+/* line 98 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  100% {
+    opacity: 0;
+    transform: translateY(145%);
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+@-o-keyframes ball-fall {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  0% {
+    opacity: 0;
+    transform: translateY(-145%);
+  }
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  10% {
+    opacity: 0.5;
+  }
+
+/* line 87 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+/* line 91 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+/* line 95 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  90% {
+    opacity: 0.5;
+  }
+
+/* line 98 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  100% {
+    opacity: 0;
+    transform: translateY(145%);
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+@keyframes ball-fall {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  0% {
+    opacity: 0;
+    transform: translateY(-145%);
+  }
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  10% {
+    opacity: 0.5;
+  }
+
+/* line 87 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+/* line 91 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+/* line 95 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  90% {
+    opacity: 0.5;
+  }
+
+/* line 98 : /home/samps/sites/personal/load-awesome-relative/css/ball-fall.styl */
+  100% {
+    opacity: 0;
+    transform: translateY(145%);
+  }
+}

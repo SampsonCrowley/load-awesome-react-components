@@ -444,7 +444,7 @@
 /* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
 .la-ball-atom.la-vw-sm {
   max-width: 25vw;
-  max-height: 50vw;
+  max-height: 25vw;
 }
 
 /* line 70 : /home/samps/sites/personal/load-awesome-relative/css/ball-atom.styl */
@@ -750,7 +750,7 @@
 /* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
 .la-ball-circus.la-vw-sm {
   max-width: 25vw;
-  max-height: 50vw;
+  max-height: 25vw;
 }
 
 /* line 41 : /home/samps/sites/personal/load-awesome-relative/css/ball-circus.styl */
@@ -983,7 +983,7 @@
 /* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
 .la-ball-climbing-dot.la-vw-sm {
   max-width: 25vw;
-  max-height: 40vw;
+  max-height: 20vw;
 }
 
 /* line 44 : /home/samps/sites/personal/load-awesome-relative/css/ball-climbing-dot.styl */
@@ -1259,211 +1259,6 @@
   }
 }
 
-/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-
-/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
-
-/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-/*
- * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
- * Copyright 2015 Daniel Cardoso <@DanielCardoso>
- * Copyright 2018 Sampson Crowley <@SampsonCrowley>
- * Licensed under MIT
- */
-
-/* line 26 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
-
-/* line 34 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
-
-/* line 29 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
-
-/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
-
-/* line 6 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
-.la-ball-clip-rotate,
-.la-ball-clip-rotate > div {
-  position: relative;
-  box-sizing: border-box;
-}
-
-/* line 11 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
-.la-ball-clip-rotate {
-  display: block;
-  font-size: 0;
-  color: #fff;
-  height: 10000px;
-  width: 10000px;
-  max-width: 16px;
-  max-height: 16px;
-}
-
-/* line 20 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
-.la-ball-clip-rotate.la-dark {
-  color: #333;
-}
-
-/* line 23 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
-.la-ball-clip-rotate >div {
-  display: inline-block;
-  float: none;
-  background-color: currentColor;
-  border: 0 solid currentColor;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  border-width: 2px;
-  border-bottom-color: transparent;
-  border-radius: 100%;
-  animation: ball-clip-rotate 0.75s linear infinite;
-}
-
-/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
-.la-ball-clip-rotate.la-2x {
-  max-width: 32px;
-  max-height: 32px;
-}
-
-/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
-.la-ball-clip-rotate.la-3x {
-  max-width: 48px;
-  max-height: 48px;
-}
-
-/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
-.la-ball-clip-rotate.la-4x {
-  max-width: 64px;
-  max-height: 64px;
-}
-
-/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
-.la-ball-clip-rotate.la-6x {
-  max-width: 96px;
-  max-height: 96px;
-}
-
-/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
-.la-ball-clip-rotate.la-8x {
-  max-width: 128px;
-  max-height: 128px;
-}
-
-/* line 7 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
-.la-ball-clip-rotate.la-vh {
-  max-width: 100vh;
-  max-height: 100vh;
-}
-
-/* line 11 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
-.la-ball-clip-rotate.la-vh-half {
-  max-width: 50vh;
-  max-height: 50vh;
-}
-
-/* line 15 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
-.la-ball-clip-rotate.la-vh-sm {
-  max-width: 25vh;
-  max-height: 25vh;
-}
-
-/* line 19 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
-.la-ball-clip-rotate.la-vw {
-  max-width: 100vw;
-  max-height: 100vw;
-}
-
-/* line 23 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
-.la-ball-clip-rotate.la-vw-half {
-  max-width: 50vw;
-  max-height: 50vw;
-}
-
-/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
-.la-ball-clip-rotate.la-vw-sm {
-  max-width: 25vw;
-  max-height: 50vw;
-}
-
-/* line 22 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-/*
- * Animation
- */
-
-/* line 26 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-@-moz-keyframes ball-clip-rotate {
-
-/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-  0% {
-    transform: rotate(0deg);
-  }
-
-/* line 30 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-  50% {
-    transform: rotate(180deg);
-  }
-
-/* line 33 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* line 26 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-@-webkit-keyframes ball-clip-rotate {
-
-/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-  0% {
-    transform: rotate(0deg);
-  }
-
-/* line 30 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-  50% {
-    transform: rotate(180deg);
-  }
-
-/* line 33 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* line 26 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-@-o-keyframes ball-clip-rotate {
-
-/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-  0% {
-    transform: rotate(0deg);
-  }
-
-/* line 30 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-  50% {
-    transform: rotate(180deg);
-  }
-
-/* line 33 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* line 26 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-@keyframes ball-clip-rotate {
-
-/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-  0% {
-    transform: rotate(0deg);
-  }
-
-/* line 30 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-  50% {
-    transform: rotate(180deg);
-  }
-
-/* line 33 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 /* line 297 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate-multiple.styl */
 
 /* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
@@ -1605,7 +1400,7 @@
 /* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
 .la-ball-clip-rotate-multiple.la-vw-sm {
   max-width: 25vw;
-  max-height: 50vw;
+  max-height: 25vw;
 }
 
 /* line 38 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate-multiple.styl */
@@ -1828,7 +1623,7 @@
 /* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
 .la-ball-clip-rotate-pulse.la-vw-sm {
   max-width: 25vw;
-  max-height: 50vw;
+  max-height: 25vw;
 }
 
 /* line 36 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate-pulse.styl */
@@ -1973,6 +1768,211 @@
   30% {
     opacity: 0.3;
     transform: scale(0.15);
+  }
+}
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 26 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 34 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 6 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+.la-ball-clip-rotate,
+.la-ball-clip-rotate > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 11 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+.la-ball-clip-rotate {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  height: 10000px;
+  width: 10000px;
+  max-width: 16px;
+  max-height: 16px;
+}
+
+/* line 20 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+.la-ball-clip-rotate.la-dark {
+  color: #333;
+}
+
+/* line 23 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+.la-ball-clip-rotate >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border-width: 2px;
+  border-bottom-color: transparent;
+  border-radius: 100%;
+  animation: ball-clip-rotate 0.75s linear infinite;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-clip-rotate.la-2x {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-clip-rotate.la-3x {
+  max-width: 48px;
+  max-height: 48px;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-clip-rotate.la-4x {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-clip-rotate.la-6x {
+  max-width: 96px;
+  max-height: 96px;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-clip-rotate.la-8x {
+  max-width: 128px;
+  max-height: 128px;
+}
+
+/* line 7 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-clip-rotate.la-vh {
+  max-width: 100vh;
+  max-height: 100vh;
+}
+
+/* line 11 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-clip-rotate.la-vh-half {
+  max-width: 50vh;
+  max-height: 50vh;
+}
+
+/* line 15 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-clip-rotate.la-vh-sm {
+  max-width: 25vh;
+  max-height: 25vh;
+}
+
+/* line 19 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-clip-rotate.la-vw {
+  max-width: 100vw;
+  max-height: 100vw;
+}
+
+/* line 23 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-clip-rotate.la-vw-half {
+  max-width: 50vw;
+  max-height: 50vw;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-clip-rotate.la-vw-sm {
+  max-width: 25vw;
+  max-height: 25vw;
+}
+
+/* line 22 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+/*
+ * Animation
+ */
+
+/* line 26 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+@-moz-keyframes ball-clip-rotate {
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 30 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+  50% {
+    transform: rotate(180deg);
+  }
+
+/* line 33 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 26 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+@-webkit-keyframes ball-clip-rotate {
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 30 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+  50% {
+    transform: rotate(180deg);
+  }
+
+/* line 33 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 26 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+@-o-keyframes ball-clip-rotate {
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 30 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+  50% {
+    transform: rotate(180deg);
+  }
+
+/* line 33 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 26 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+@keyframes ball-clip-rotate {
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 30 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+  50% {
+    transform: rotate(180deg);
+  }
+
+/* line 33 : /home/samps/sites/personal/load-awesome-relative/css/ball-clip-rotate.styl */
+  100% {
+    transform: rotate(360deg);
   }
 }
 
@@ -2211,7 +2211,7 @@
 /* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
 .la-ball-8bits.la-vw-sm {
   max-width: 25vw;
-  max-height: 50vw;
+  max-height: 25vw;
 }
 
 /* line 104 : /home/samps/sites/personal/load-awesome-relative/css/ball-8bits.styl */
@@ -2864,7 +2864,7 @@
 /* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
 .la-ball-fusion.la-vw-sm {
   max-width: 25vw;
-  max-height: 50vw;
+  max-height: 25vw;
 }
 
 /* line 6 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
@@ -2998,7 +2998,7 @@
 /* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
 .la-ball-fussion.la-vw-sm {
   max-width: 25vw;
-  max-height: 50vw;
+  max-height: 25vw;
 }
 
 /* line 45 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
@@ -6756,7 +6756,7 @@
 /* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
 .la-ball-beat.la-vw-sm {
   max-width: 25vw;
-  max-height: 12.5vw;
+  max-height: 6.25vw;
 }
 
 /* line 23 : /home/samps/sites/personal/load-awesome-relative/css/ball-beat.styl */

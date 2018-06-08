@@ -1,0 +1,289 @@
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots,
+.la-ball-running-dots > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 10px;
+  height: 10px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  margin-left: -25px;
+  border-radius: 100%;
+  animation: ball-running-dots-animate 2s linear infinite;
+}
+
+/* line 39 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots >div:nth-child(1) {
+  animation-delay: 0s;
+}
+
+/* line 42 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots >div:nth-child(2) {
+  animation-delay: -0.4s;
+}
+
+/* line 45 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots >div:nth-child(3) {
+  animation-delay: -0.8s;
+}
+
+/* line 48 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots >div:nth-child(4) {
+  animation-delay: -1.2s;
+}
+
+/* line 51 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots >div:nth-child(5) {
+  animation-delay: -1.6s;
+}
+
+/* line 54 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots >div:nth-child(6) {
+  animation-delay: -2s;
+}
+
+/* line 57 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots >div:nth-child(7) {
+  animation-delay: -2.4s;
+}
+
+/* line 60 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots >div:nth-child(8) {
+  animation-delay: -2.8s;
+}
+
+/* line 63 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots >div:nth-child(9) {
+  animation-delay: -3.2s;
+}
+
+/* line 66 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots >div:nth-child(10) {
+  animation-delay: -3.6s;
+}
+
+/* line 69 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots.la-sm {
+  width: 4px;
+  height: 4px;
+}
+
+/* line 73 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots.la-sm >div {
+  width: 4px;
+  height: 4px;
+  margin-left: -12px;
+}
+
+/* line 78 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots.la-2x {
+  width: 20px;
+  height: 20px;
+}
+
+/* line 82 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots.la-2x >div {
+  width: 20px;
+  height: 20px;
+  margin-left: -50px;
+}
+
+/* line 87 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots.la-3x {
+  width: 30px;
+  height: 30px;
+}
+
+/* line 91 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+.la-ball-running-dots.la-3x >div {
+  width: 30px;
+  height: 30px;
+  margin-left: -75px;
+}
+
+/* line 96 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+/*
+ * Animation
+ */
+
+/* line 100 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+@-moz-keyframes ball-running-dots-animate {
+
+/* line 101 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  0% {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0) translateX(500%);
+  }
+
+/* line 106 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  80% {
+    transform: translateY(0) translateX(0);
+  }
+
+/* line 109 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  85% {
+    width: 100%;
+    height: 100%;
+    transform: translateY(-125%) translateX(0);
+  }
+
+/* line 114 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  90% {
+    width: 200%;
+    height: 75%;
+  }
+
+/* line 118 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  95% {
+    width: 100%;
+    height: 100%;
+    transform: translateY(-100%) translateX(500%);
+  }
+}
+
+/* line 100 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+@-webkit-keyframes ball-running-dots-animate {
+
+/* line 101 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  0% {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0) translateX(500%);
+  }
+
+/* line 106 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  80% {
+    transform: translateY(0) translateX(0);
+  }
+
+/* line 109 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  85% {
+    width: 100%;
+    height: 100%;
+    transform: translateY(-125%) translateX(0);
+  }
+
+/* line 114 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  90% {
+    width: 200%;
+    height: 75%;
+  }
+
+/* line 118 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  95% {
+    width: 100%;
+    height: 100%;
+    transform: translateY(-100%) translateX(500%);
+  }
+}
+
+/* line 100 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+@-o-keyframes ball-running-dots-animate {
+
+/* line 101 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  0% {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0) translateX(500%);
+  }
+
+/* line 106 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  80% {
+    transform: translateY(0) translateX(0);
+  }
+
+/* line 109 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  85% {
+    width: 100%;
+    height: 100%;
+    transform: translateY(-125%) translateX(0);
+  }
+
+/* line 114 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  90% {
+    width: 200%;
+    height: 75%;
+  }
+
+/* line 118 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  95% {
+    width: 100%;
+    height: 100%;
+    transform: translateY(-100%) translateX(500%);
+  }
+}
+
+/* line 100 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+@keyframes ball-running-dots-animate {
+
+/* line 101 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  0% {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0) translateX(500%);
+  }
+
+/* line 106 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  80% {
+    transform: translateY(0) translateX(0);
+  }
+
+/* line 109 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  85% {
+    width: 100%;
+    height: 100%;
+    transform: translateY(-125%) translateX(0);
+  }
+
+/* line 114 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  90% {
+    width: 200%;
+    height: 75%;
+  }
+
+/* line 118 : /home/samps/sites/personal/load-awesome-relative/css/ball-running-dots.styl */
+  95% {
+    width: 100%;
+    height: 100%;
+    transform: translateY(-100%) translateX(500%);
+  }
+}

@@ -1,0 +1,173 @@
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog,
+.la-cog > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 31px;
+  height: 31px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 100%;
+  animation: cog-rotate 4s linear infinite;
+}
+
+/* line 40 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog >div:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  border: 2px solid currentColor;
+  border-radius: 100%;
+}
+
+/* line 50 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-sm {
+  width: 15px;
+  height: 15px;
+}
+
+/* line 54 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-sm >div {
+  border-width: 1px;
+}
+
+/* line 57 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-sm >div:after {
+  border-width: 1px;
+}
+
+/* line 60 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-2x {
+  width: 61px;
+  height: 61px;
+}
+
+/* line 64 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-2x >div {
+  border-width: 4px;
+}
+
+/* line 67 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-2x >div:after {
+  border-width: 4px;
+}
+
+/* line 70 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-3x {
+  width: 91px;
+  height: 91px;
+}
+
+/* line 74 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-3x >div {
+  border-width: 6px;
+}
+
+/* line 77 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-3x >div:after {
+  border-width: 6px;
+}
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+/*
+ * Animation
+ */
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+@-moz-keyframes cog-rotate {
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+@-webkit-keyframes cog-rotate {
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+@-o-keyframes cog-rotate {
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+@keyframes cog-rotate {
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}

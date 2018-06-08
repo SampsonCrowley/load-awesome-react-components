@@ -1,0 +1,611 @@
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path,
+.la-ball-triangle-path > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+/* line 39 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path >div:nth-child(1) {
+  animation: ball-triangle-path-ball-one 2s 0s ease-in-out infinite;
+}
+
+/* line 42 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path >div:nth-child(2) {
+  animation: ball-triangle-path-ball-two 2s 0s ease-in-out infinite;
+}
+
+/* line 45 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path >div:nth-child(3) {
+  animation: ball-triangle-path-ball-tree 2s 0s ease-in-out infinite;
+}
+
+/* line 48 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path.la-sm {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 52 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path.la-sm >div {
+  width: 4px;
+  height: 4px;
+}
+
+/* line 56 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path.la-2x {
+  width: 64px;
+  height: 64px;
+}
+
+/* line 60 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path.la-2x >div {
+  width: 20px;
+  height: 20px;
+}
+
+/* line 64 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path.la-3x {
+  width: 96px;
+  height: 96px;
+}
+
+/* line 68 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+.la-ball-triangle-path.la-3x >div {
+  width: 30px;
+  height: 30px;
+}
+
+/* line 72 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+/*
+ * Animations
+ */
+
+/* line 76 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+@-moz-keyframes ball-triangle-path-ball-one {
+
+/* line 77 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  0% {
+    transform: translate(0, 220%);
+  }
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  17% {
+    opacity: 0.25;
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  33% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+
+/* line 87 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  50% {
+    opacity: 0.25;
+  }
+
+/* line 90 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  66% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+
+/* line 94 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  83% {
+    opacity: 0.25;
+  }
+
+/* line 97 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  100% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+}
+
+/* line 76 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+@-webkit-keyframes ball-triangle-path-ball-one {
+
+/* line 77 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  0% {
+    transform: translate(0, 220%);
+  }
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  17% {
+    opacity: 0.25;
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  33% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+
+/* line 87 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  50% {
+    opacity: 0.25;
+  }
+
+/* line 90 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  66% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+
+/* line 94 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  83% {
+    opacity: 0.25;
+  }
+
+/* line 97 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  100% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+}
+
+/* line 76 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+@-o-keyframes ball-triangle-path-ball-one {
+
+/* line 77 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  0% {
+    transform: translate(0, 220%);
+  }
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  17% {
+    opacity: 0.25;
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  33% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+
+/* line 87 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  50% {
+    opacity: 0.25;
+  }
+
+/* line 90 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  66% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+
+/* line 94 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  83% {
+    opacity: 0.25;
+  }
+
+/* line 97 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  100% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+}
+
+/* line 76 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+@keyframes ball-triangle-path-ball-one {
+
+/* line 77 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  0% {
+    transform: translate(0, 220%);
+  }
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  17% {
+    opacity: 0.25;
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  33% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+
+/* line 87 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  50% {
+    opacity: 0.25;
+  }
+
+/* line 90 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  66% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+
+/* line 94 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  83% {
+    opacity: 0.25;
+  }
+
+/* line 97 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  100% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+}
+
+/* line 101 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+@-moz-keyframes ball-triangle-path-ball-two {
+
+/* line 102 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  0% {
+    transform: translate(110%, 0);
+  }
+
+/* line 105 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  17% {
+    opacity: 0.25;
+  }
+
+/* line 108 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  33% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+
+/* line 112 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  50% {
+    opacity: 0.25;
+  }
+
+/* line 115 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  66% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+
+/* line 119 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  83% {
+    opacity: 0.25;
+  }
+
+/* line 122 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  100% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+}
+
+/* line 101 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+@-webkit-keyframes ball-triangle-path-ball-two {
+
+/* line 102 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  0% {
+    transform: translate(110%, 0);
+  }
+
+/* line 105 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  17% {
+    opacity: 0.25;
+  }
+
+/* line 108 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  33% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+
+/* line 112 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  50% {
+    opacity: 0.25;
+  }
+
+/* line 115 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  66% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+
+/* line 119 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  83% {
+    opacity: 0.25;
+  }
+
+/* line 122 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  100% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+}
+
+/* line 101 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+@-o-keyframes ball-triangle-path-ball-two {
+
+/* line 102 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  0% {
+    transform: translate(110%, 0);
+  }
+
+/* line 105 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  17% {
+    opacity: 0.25;
+  }
+
+/* line 108 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  33% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+
+/* line 112 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  50% {
+    opacity: 0.25;
+  }
+
+/* line 115 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  66% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+
+/* line 119 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  83% {
+    opacity: 0.25;
+  }
+
+/* line 122 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  100% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+}
+
+/* line 101 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+@keyframes ball-triangle-path-ball-two {
+
+/* line 102 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  0% {
+    transform: translate(110%, 0);
+  }
+
+/* line 105 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  17% {
+    opacity: 0.25;
+  }
+
+/* line 108 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  33% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+
+/* line 112 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  50% {
+    opacity: 0.25;
+  }
+
+/* line 115 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  66% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+
+/* line 119 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  83% {
+    opacity: 0.25;
+  }
+
+/* line 122 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  100% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+}
+
+/* line 126 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+@-moz-keyframes ball-triangle-path-ball-tree {
+
+/* line 127 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  0% {
+    transform: translate(220%, 220%);
+  }
+
+/* line 130 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  17% {
+    opacity: 0.25;
+  }
+
+/* line 133 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  33% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+
+/* line 137 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  50% {
+    opacity: 0.25;
+  }
+
+/* line 140 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  66% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+
+/* line 144 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  83% {
+    opacity: 0.25;
+  }
+
+/* line 147 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  100% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+}
+
+/* line 126 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+@-webkit-keyframes ball-triangle-path-ball-tree {
+
+/* line 127 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  0% {
+    transform: translate(220%, 220%);
+  }
+
+/* line 130 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  17% {
+    opacity: 0.25;
+  }
+
+/* line 133 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  33% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+
+/* line 137 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  50% {
+    opacity: 0.25;
+  }
+
+/* line 140 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  66% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+
+/* line 144 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  83% {
+    opacity: 0.25;
+  }
+
+/* line 147 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  100% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+}
+
+/* line 126 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+@-o-keyframes ball-triangle-path-ball-tree {
+
+/* line 127 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  0% {
+    transform: translate(220%, 220%);
+  }
+
+/* line 130 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  17% {
+    opacity: 0.25;
+  }
+
+/* line 133 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  33% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+
+/* line 137 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  50% {
+    opacity: 0.25;
+  }
+
+/* line 140 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  66% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+
+/* line 144 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  83% {
+    opacity: 0.25;
+  }
+
+/* line 147 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  100% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+}
+
+/* line 126 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+@keyframes ball-triangle-path-ball-tree {
+
+/* line 127 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  0% {
+    transform: translate(220%, 220%);
+  }
+
+/* line 130 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  17% {
+    opacity: 0.25;
+  }
+
+/* line 133 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  33% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+
+/* line 137 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  50% {
+    opacity: 0.25;
+  }
+
+/* line 140 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  66% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+
+/* line 144 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  83% {
+    opacity: 0.25;
+  }
+
+/* line 147 : /home/samps/sites/personal/load-awesome-relative/css/ball-triangle-path.styl */
+  100% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+}

@@ -1,0 +1,173 @@
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse,
+.la-ball-pulse > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 54px;
+  height: 18px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border-radius: 100%;
+  animation: ball-pulse 1s ease infinite;
+}
+
+/* line 38 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse >div:nth-child(1) {
+  animation-delay: -200ms;
+}
+
+/* line 41 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse >div:nth-child(2) {
+  animation-delay: -100ms;
+}
+
+/* line 44 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse >div:nth-child(3) {
+  animation-delay: 0ms;
+}
+
+/* line 47 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse.la-sm {
+  width: 26px;
+  height: 8px;
+}
+
+/* line 51 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse.la-sm >div {
+  width: 4px;
+  height: 4px;
+  margin: 2px;
+}
+
+/* line 56 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse.la-2x {
+  width: 108px;
+  height: 36px;
+}
+
+/* line 60 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse.la-2x >div {
+  width: 20px;
+  height: 20px;
+  margin: 8px;
+}
+
+/* line 65 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse.la-3x {
+  width: 162px;
+  height: 54px;
+}
+
+/* line 69 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+.la-ball-pulse.la-3x >div {
+  width: 30px;
+  height: 30px;
+  margin: 12px;
+}
+
+/* line 74 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+/*
+ * Animation
+ */
+
+/* line 78 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+@-moz-keyframes ball-pulse {
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+  30% {
+    opacity: 0.1;
+    transform: scale(0.01);
+  }
+}
+
+/* line 78 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+@-webkit-keyframes ball-pulse {
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+  30% {
+    opacity: 0.1;
+    transform: scale(0.01);
+  }
+}
+
+/* line 78 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+@-o-keyframes ball-pulse {
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+  30% {
+    opacity: 0.1;
+    transform: scale(0.01);
+  }
+}
+
+/* line 78 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+@keyframes ball-pulse {
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-pulse.styl */
+  30% {
+    opacity: 0.1;
+    transform: scale(0.01);
+  }
+}

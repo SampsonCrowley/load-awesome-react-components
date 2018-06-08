@@ -1,0 +1,225 @@
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat,
+.la-ball-grid-beat > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  width: 8px;
+  height: 8px;
+  margin: 2px;
+  border-radius: 100%;
+  animation-name: ball-grid-beat;
+  animation-iteration-count: infinite;
+}
+
+/* line 39 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat >div:nth-child(1) {
+  animation-duration: 0.65s;
+  animation-delay: 0.03s;
+}
+
+/* line 43 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat >div:nth-child(2) {
+  animation-duration: 1.02s;
+  animation-delay: 0.09s;
+}
+
+/* line 47 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat >div:nth-child(3) {
+  animation-duration: 1.06s;
+  animation-delay: -0.69s;
+}
+
+/* line 51 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat >div:nth-child(4) {
+  animation-duration: 1.5s;
+  animation-delay: -0.41s;
+}
+
+/* line 55 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat >div:nth-child(5) {
+  animation-duration: 1.6s;
+  animation-delay: 0.04s;
+}
+
+/* line 59 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat >div:nth-child(6) {
+  animation-duration: 0.84s;
+  animation-delay: 0.07s;
+}
+
+/* line 63 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat >div:nth-child(7) {
+  animation-duration: 0.68s;
+  animation-delay: -0.66s;
+}
+
+/* line 67 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat >div:nth-child(8) {
+  animation-duration: 0.93s;
+  animation-delay: -0.76s;
+}
+
+/* line 71 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat >div:nth-child(9) {
+  animation-duration: 1.24s;
+  animation-delay: -0.76s;
+}
+
+/* line 75 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat.la-sm {
+  width: 18px;
+  height: 18px;
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat.la-sm >div {
+  width: 4px;
+  height: 4px;
+  margin: 1px;
+}
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat.la-2x {
+  width: 72px;
+  height: 72px;
+}
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat.la-2x >div {
+  width: 16px;
+  height: 16px;
+  margin: 4px;
+}
+
+/* line 93 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat.la-3x {
+  width: 108px;
+  height: 108px;
+}
+
+/* line 97 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+.la-ball-grid-beat.la-3x >div {
+  width: 24px;
+  height: 24px;
+  margin: 6px;
+}
+
+/* line 102 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+/*
+ * Animation
+ */
+
+/* line 106 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+@-moz-keyframes ball-grid-beat {
+
+/* line 107 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+  0% {
+    opacity: 1;
+  }
+
+/* line 110 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+  50% {
+    opacity: 0.35;
+  }
+
+/* line 113 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 106 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+@-webkit-keyframes ball-grid-beat {
+
+/* line 107 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+  0% {
+    opacity: 1;
+  }
+
+/* line 110 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+  50% {
+    opacity: 0.35;
+  }
+
+/* line 113 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 106 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+@-o-keyframes ball-grid-beat {
+
+/* line 107 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+  0% {
+    opacity: 1;
+  }
+
+/* line 110 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+  50% {
+    opacity: 0.35;
+  }
+
+/* line 113 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 106 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+@keyframes ball-grid-beat {
+
+/* line 107 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+  0% {
+    opacity: 1;
+  }
+
+/* line 110 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+  50% {
+    opacity: 0.35;
+  }
+
+/* line 113 : /home/samps/sites/personal/load-awesome-relative/css/ball-grid-beat.styl */
+  100% {
+    opacity: 1;
+  }
+}

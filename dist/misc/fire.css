@@ -1,0 +1,186 @@
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire,
+.la-fire > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 0;
+  border-radius: 2px;
+  transform: translateY(0) translateX(-50%) rotate(45deg) scale(0);
+  animation: fire-diamonds 1.5s infinite linear;
+}
+
+/* line 42 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire >div:nth-child(1) {
+  animation-delay: -0.85s;
+}
+
+/* line 45 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire >div:nth-child(2) {
+  animation-delay: -1.85s;
+}
+
+/* line 48 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire >div:nth-child(3) {
+  animation-delay: -2.85s;
+}
+
+/* line 51 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-sm {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 55 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-sm >div {
+  width: 6px;
+  height: 6px;
+}
+
+/* line 59 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-2x {
+  width: 64px;
+  height: 64px;
+}
+
+/* line 63 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-2x >div {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 67 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-3x {
+  width: 96px;
+  height: 96px;
+}
+
+/* line 71 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-3x >div {
+  width: 36px;
+  height: 36px;
+}
+
+/* line 75 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+/*
+ * Animation
+ */
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+@-moz-keyframes fire-diamonds {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  0% {
+    transform: translateY(75%) translateX(-50%) rotate(45deg) scale(0);
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  50% {
+    transform: translateY(-87.5%) translateX(-50%) rotate(45deg) scale(1);
+  }
+
+/* line 86 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  100% {
+    transform: translateY(-212.5%) translateX(-50%) rotate(45deg) scale(0);
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+@-webkit-keyframes fire-diamonds {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  0% {
+    transform: translateY(75%) translateX(-50%) rotate(45deg) scale(0);
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  50% {
+    transform: translateY(-87.5%) translateX(-50%) rotate(45deg) scale(1);
+  }
+
+/* line 86 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  100% {
+    transform: translateY(-212.5%) translateX(-50%) rotate(45deg) scale(0);
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+@-o-keyframes fire-diamonds {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  0% {
+    transform: translateY(75%) translateX(-50%) rotate(45deg) scale(0);
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  50% {
+    transform: translateY(-87.5%) translateX(-50%) rotate(45deg) scale(1);
+  }
+
+/* line 86 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  100% {
+    transform: translateY(-212.5%) translateX(-50%) rotate(45deg) scale(0);
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+@keyframes fire-diamonds {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  0% {
+    transform: translateY(75%) translateX(-50%) rotate(45deg) scale(0);
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  50% {
+    transform: translateY(-87.5%) translateX(-50%) rotate(45deg) scale(1);
+  }
+
+/* line 86 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  100% {
+    transform: translateY(-212.5%) translateX(-50%) rotate(45deg) scale(0);
+  }
+}

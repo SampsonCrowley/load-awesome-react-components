@@ -1,0 +1,677 @@
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 26 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 107 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 6 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+.la-ball-fusion,
+.la-ball-fusion > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 11 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+.la-ball-fusion {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  height: 10000px;
+  width: 10000px;
+  max-width: 4px;
+  max-height: 4px;
+}
+
+/* line 20 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+.la-ball-fusion.la-dark {
+  color: #333;
+}
+
+/* line 23 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+.la-ball-fusion >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  animation: ball-fusion-ball1 1s 0s ease infinite;
+}
+
+/* line 22 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+.la-ball-fusion >div:nth-child(1) {
+  top: 0;
+  left: 50%;
+  z-index: 1;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+.la-ball-fusion >div:nth-child(2) {
+  top: 50%;
+  left: 100%;
+  z-index: 2;
+  animation-name: ball-fusion-ball2;
+}
+
+/* line 33 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+.la-ball-fusion >div:nth-child(3) {
+  top: 100%;
+  left: 50%;
+  z-index: 1;
+  animation-name: ball-fusion-ball3;
+}
+
+/* line 39 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+.la-ball-fusion >div:nth-child(4) {
+  top: 50%;
+  left: 0;
+  z-index: 2;
+  animation-name: ball-fusion-ball4;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fusion.la-2x {
+  max-width: 8px;
+  max-height: 8px;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fusion.la-3x {
+  max-width: 12px;
+  max-height: 12px;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fusion.la-4x {
+  max-width: 16px;
+  max-height: 16px;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fusion.la-6x {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fusion.la-8x {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+/* line 7 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fusion.la-vh {
+  max-width: 100vh;
+  max-height: 100vh;
+}
+
+/* line 11 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fusion.la-vh-half {
+  max-width: 50vh;
+  max-height: 50vh;
+}
+
+/* line 15 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fusion.la-vh-sm {
+  max-width: 25vh;
+  max-height: 25vh;
+}
+
+/* line 19 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fusion.la-vw {
+  max-width: 100vw;
+  max-height: 100vw;
+}
+
+/* line 23 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fusion.la-vw-half {
+  max-width: 50vw;
+  max-height: 50vw;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fusion.la-vw-sm {
+  max-width: 25vw;
+  max-height: 25vw;
+}
+
+/* line 6 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+.la-ball-fussion,
+.la-ball-fussion > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 11 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+.la-ball-fussion {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  height: 10000px;
+  width: 10000px;
+  max-width: 4px;
+  max-height: 4px;
+}
+
+/* line 20 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+.la-ball-fussion.la-dark {
+  color: #333;
+}
+
+/* line 23 : /home/samps/sites/personal/load-awesome-relative/css/mixins/template.styl */
+.la-ball-fussion >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  animation: ball-fusion-ball1 1s 0s ease infinite;
+}
+
+/* line 22 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+.la-ball-fussion >div:nth-child(1) {
+  top: 0;
+  left: 50%;
+  z-index: 1;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+.la-ball-fussion >div:nth-child(2) {
+  top: 50%;
+  left: 100%;
+  z-index: 2;
+  animation-name: ball-fusion-ball2;
+}
+
+/* line 33 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+.la-ball-fussion >div:nth-child(3) {
+  top: 100%;
+  left: 50%;
+  z-index: 1;
+  animation-name: ball-fusion-ball3;
+}
+
+/* line 39 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+.la-ball-fussion >div:nth-child(4) {
+  top: 50%;
+  left: 0;
+  z-index: 2;
+  animation-name: ball-fusion-ball4;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fussion.la-2x {
+  max-width: 8px;
+  max-height: 8px;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fussion.la-3x {
+  max-width: 12px;
+  max-height: 12px;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fussion.la-4x {
+  max-width: 16px;
+  max-height: 16px;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fussion.la-6x {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+/* line 3 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fussion.la-8x {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+/* line 7 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fussion.la-vh {
+  max-width: 100vh;
+  max-height: 100vh;
+}
+
+/* line 11 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fussion.la-vh-half {
+  max-width: 50vh;
+  max-height: 50vh;
+}
+
+/* line 15 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fussion.la-vh-sm {
+  max-width: 25vh;
+  max-height: 25vh;
+}
+
+/* line 19 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fussion.la-vw {
+  max-width: 100vw;
+  max-height: 100vw;
+}
+
+/* line 23 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fussion.la-vw-half {
+  max-width: 50vw;
+  max-height: 50vw;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+.la-ball-fussion.la-vw-sm {
+  max-width: 25vw;
+  max-height: 25vw;
+}
+
+/* line 45 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+/*
+ * Animations
+ */
+
+/* line 49 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@-moz-keyframes ball-fusion-ball1 {
+
+/* line 50 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 53 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: -100%;
+    left: 200%;
+    opacity: 1;
+  }
+
+/* line 58 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 50%;
+    left: 100%;
+    z-index: 2;
+    opacity: 0.35;
+  }
+}
+
+/* line 49 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@-webkit-keyframes ball-fusion-ball1 {
+
+/* line 50 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 53 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: -100%;
+    left: 200%;
+    opacity: 1;
+  }
+
+/* line 58 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 50%;
+    left: 100%;
+    z-index: 2;
+    opacity: 0.35;
+  }
+}
+
+/* line 49 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@-o-keyframes ball-fusion-ball1 {
+
+/* line 50 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 53 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: -100%;
+    left: 200%;
+    opacity: 1;
+  }
+
+/* line 58 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 50%;
+    left: 100%;
+    z-index: 2;
+    opacity: 0.35;
+  }
+}
+
+/* line 49 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@keyframes ball-fusion-ball1 {
+
+/* line 50 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 53 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: -100%;
+    left: 200%;
+    opacity: 1;
+  }
+
+/* line 58 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 50%;
+    left: 100%;
+    z-index: 2;
+    opacity: 0.35;
+  }
+}
+
+/* line 64 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@-moz-keyframes ball-fusion-ball2 {
+
+/* line 65 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 68 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: 200%;
+    left: 200%;
+    opacity: 1;
+  }
+
+/* line 73 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 100%;
+    left: 50%;
+    z-index: 1;
+    opacity: 0.35;
+  }
+}
+
+/* line 64 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@-webkit-keyframes ball-fusion-ball2 {
+
+/* line 65 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 68 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: 200%;
+    left: 200%;
+    opacity: 1;
+  }
+
+/* line 73 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 100%;
+    left: 50%;
+    z-index: 1;
+    opacity: 0.35;
+  }
+}
+
+/* line 64 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@-o-keyframes ball-fusion-ball2 {
+
+/* line 65 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 68 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: 200%;
+    left: 200%;
+    opacity: 1;
+  }
+
+/* line 73 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 100%;
+    left: 50%;
+    z-index: 1;
+    opacity: 0.35;
+  }
+}
+
+/* line 64 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@keyframes ball-fusion-ball2 {
+
+/* line 65 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 68 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: 200%;
+    left: 200%;
+    opacity: 1;
+  }
+
+/* line 73 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 100%;
+    left: 50%;
+    z-index: 1;
+    opacity: 0.35;
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@-moz-keyframes ball-fusion-ball3 {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: 200%;
+    left: -100%;
+    opacity: 1;
+  }
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    opacity: 0.35;
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@-webkit-keyframes ball-fusion-ball3 {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: 200%;
+    left: -100%;
+    opacity: 1;
+  }
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    opacity: 0.35;
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@-o-keyframes ball-fusion-ball3 {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: 200%;
+    left: -100%;
+    opacity: 1;
+  }
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    opacity: 0.35;
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@keyframes ball-fusion-ball3 {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: 200%;
+    left: -100%;
+    opacity: 1;
+  }
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    opacity: 0.35;
+  }
+}
+
+/* line 94 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@-moz-keyframes ball-fusion-ball4 {
+
+/* line 95 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 98 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: -100%;
+    left: -100%;
+    opacity: 1;
+  }
+
+/* line 103 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    opacity: 0.35;
+  }
+}
+
+/* line 94 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@-webkit-keyframes ball-fusion-ball4 {
+
+/* line 95 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 98 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: -100%;
+    left: -100%;
+    opacity: 1;
+  }
+
+/* line 103 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    opacity: 0.35;
+  }
+}
+
+/* line 94 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@-o-keyframes ball-fusion-ball4 {
+
+/* line 95 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 98 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: -100%;
+    left: -100%;
+    opacity: 1;
+  }
+
+/* line 103 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    opacity: 0.35;
+  }
+}
+
+/* line 94 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+@keyframes ball-fusion-ball4 {
+
+/* line 95 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  0% {
+    opacity: 0.35;
+  }
+
+/* line 98 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  50% {
+    top: -100%;
+    left: -100%;
+    opacity: 1;
+  }
+
+/* line 103 : /home/samps/sites/personal/load-awesome-relative/css/ball-fusion.styl */
+  100% {
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    opacity: 0.35;
+  }
+}

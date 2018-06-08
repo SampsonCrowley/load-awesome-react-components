@@ -1,0 +1,213 @@
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin,
+.la-ball-square-clockwise-spin > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 26px;
+  height: 26px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  margin-left: -6px;
+  border-radius: 100%;
+  animation: ball-square-clockwise-spin 1s infinite ease-in-out;
+}
+
+/* line 42 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin >div:nth-child(1) {
+  top: 0;
+  left: 0;
+  animation-delay: -0.875s;
+}
+
+/* line 47 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin >div:nth-child(2) {
+  top: 0;
+  left: 50%;
+  animation-delay: -0.75s;
+}
+
+/* line 52 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin >div:nth-child(3) {
+  top: 0;
+  left: 100%;
+  animation-delay: -0.625s;
+}
+
+/* line 57 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin >div:nth-child(4) {
+  top: 50%;
+  left: 100%;
+  animation-delay: -0.5s;
+}
+
+/* line 62 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin >div:nth-child(5) {
+  top: 100%;
+  left: 100%;
+  animation-delay: -0.375s;
+}
+
+/* line 67 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin >div:nth-child(6) {
+  top: 100%;
+  left: 50%;
+  animation-delay: -0.25s;
+}
+
+/* line 72 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin >div:nth-child(7) {
+  top: 100%;
+  left: 0;
+  animation-delay: -0.125s;
+}
+
+/* line 77 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin >div:nth-child(8) {
+  top: 50%;
+  left: 0;
+  animation-delay: 0s;
+}
+
+/* line 82 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin.la-sm {
+  width: 12px;
+  height: 12px;
+}
+
+/* line 86 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin.la-sm >div {
+  width: 6px;
+  height: 6px;
+  margin-top: -3px;
+  margin-left: -3px;
+}
+
+/* line 92 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin.la-2x {
+  width: 52px;
+  height: 52px;
+}
+
+/* line 96 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin.la-2x >div {
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+  margin-left: -12px;
+}
+
+/* line 102 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin.la-3x {
+  width: 78px;
+  height: 78px;
+}
+
+/* line 106 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+.la-ball-square-clockwise-spin.la-3x >div {
+  width: 36px;
+  height: 36px;
+  margin-top: -18px;
+  margin-left: -18px;
+}
+
+/* line 112 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+/*
+ * Animation
+ */
+
+/* line 116 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+@-moz-keyframes ball-square-clockwise-spin {
+
+/* line 117 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+  0% {
+    transform: scale(0.4);
+  }
+
+/* line 120 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+  70% {
+    transform: scale(1);
+  }
+}
+
+/* line 116 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+@-webkit-keyframes ball-square-clockwise-spin {
+
+/* line 117 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+  0% {
+    transform: scale(0.4);
+  }
+
+/* line 120 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+  70% {
+    transform: scale(1);
+  }
+}
+
+/* line 116 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+@-o-keyframes ball-square-clockwise-spin {
+
+/* line 117 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+  0% {
+    transform: scale(0.4);
+  }
+
+/* line 120 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+  70% {
+    transform: scale(1);
+  }
+}
+
+/* line 116 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+@keyframes ball-square-clockwise-spin {
+
+/* line 117 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+  0% {
+    transform: scale(0.4);
+  }
+
+/* line 120 : /home/samps/sites/personal/load-awesome-relative/css/ball-square-clockwise-spin.styl */
+  70% {
+    transform: scale(1);
+  }
+}

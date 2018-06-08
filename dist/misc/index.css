@@ -1,0 +1,1267 @@
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog,
+.la-cog > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 31px;
+  height: 31px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 100%;
+  animation: cog-rotate 4s linear infinite;
+}
+
+/* line 40 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog >div:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  border: 2px solid currentColor;
+  border-radius: 100%;
+}
+
+/* line 50 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-sm {
+  width: 15px;
+  height: 15px;
+}
+
+/* line 54 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-sm >div {
+  border-width: 1px;
+}
+
+/* line 57 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-sm >div:after {
+  border-width: 1px;
+}
+
+/* line 60 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-2x {
+  width: 61px;
+  height: 61px;
+}
+
+/* line 64 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-2x >div {
+  border-width: 4px;
+}
+
+/* line 67 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-2x >div:after {
+  border-width: 4px;
+}
+
+/* line 70 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-3x {
+  width: 91px;
+  height: 91px;
+}
+
+/* line 74 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-3x >div {
+  border-width: 6px;
+}
+
+/* line 77 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+.la-cog.la-3x >div:after {
+  border-width: 6px;
+}
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+/*
+ * Animation
+ */
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+@-moz-keyframes cog-rotate {
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+@-webkit-keyframes cog-rotate {
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+@-o-keyframes cog-rotate {
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+@keyframes cog-rotate {
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/cog.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+.la-cube-transition,
+.la-cube-transition > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+.la-cube-transition {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+.la-cube-transition.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+.la-cube-transition >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -7px;
+  margin-left: -7px;
+  border-radius: 0;
+  animation: cube-transition 1.6s 0s infinite ease-in-out;
+}
+
+/* line 42 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+.la-cube-transition >div:last-child {
+  animation-delay: -0.8s;
+}
+
+/* line 45 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+.la-cube-transition.la-sm {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 49 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+.la-cube-transition.la-sm >div {
+  width: 6px;
+  height: 6px;
+  margin-top: -3px;
+  margin-left: -3px;
+}
+
+/* line 55 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+.la-cube-transition.la-2x {
+  width: 64px;
+  height: 64px;
+}
+
+/* line 59 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+.la-cube-transition.la-2x >div {
+  width: 28px;
+  height: 28px;
+  margin-top: -14px;
+  margin-left: -14px;
+}
+
+/* line 65 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+.la-cube-transition.la-3x {
+  width: 96px;
+  height: 96px;
+}
+
+/* line 69 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+.la-cube-transition.la-3x >div {
+  width: 42px;
+  height: 42px;
+  margin-top: -21px;
+  margin-left: -21px;
+}
+
+/* line 75 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+/*
+ * Animation
+ */
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+@-moz-keyframes cube-transition {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  25% {
+    top: 0;
+    left: 100%;
+    transform: scale(0.5) rotate(-90deg);
+  }
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  50% {
+    top: 100%;
+    left: 100%;
+    transform: scale(1) rotate(-180deg);
+  }
+
+/* line 90 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  75% {
+    top: 100%;
+    left: 0;
+    transform: scale(0.5) rotate(-270deg);
+  }
+
+/* line 95 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  100% {
+    top: 0;
+    left: 0;
+    transform: scale(1) rotate(-360deg);
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+@-webkit-keyframes cube-transition {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  25% {
+    top: 0;
+    left: 100%;
+    transform: scale(0.5) rotate(-90deg);
+  }
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  50% {
+    top: 100%;
+    left: 100%;
+    transform: scale(1) rotate(-180deg);
+  }
+
+/* line 90 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  75% {
+    top: 100%;
+    left: 0;
+    transform: scale(0.5) rotate(-270deg);
+  }
+
+/* line 95 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  100% {
+    top: 0;
+    left: 0;
+    transform: scale(1) rotate(-360deg);
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+@-o-keyframes cube-transition {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  25% {
+    top: 0;
+    left: 100%;
+    transform: scale(0.5) rotate(-90deg);
+  }
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  50% {
+    top: 100%;
+    left: 100%;
+    transform: scale(1) rotate(-180deg);
+  }
+
+/* line 90 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  75% {
+    top: 100%;
+    left: 0;
+    transform: scale(0.5) rotate(-270deg);
+  }
+
+/* line 95 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  100% {
+    top: 0;
+    left: 0;
+    transform: scale(1) rotate(-360deg);
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+@keyframes cube-transition {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  25% {
+    top: 0;
+    left: 100%;
+    transform: scale(0.5) rotate(-90deg);
+  }
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  50% {
+    top: 100%;
+    left: 100%;
+    transform: scale(1) rotate(-180deg);
+  }
+
+/* line 90 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  75% {
+    top: 100%;
+    left: 0;
+    transform: scale(0.5) rotate(-270deg);
+  }
+
+/* line 95 : /home/samps/sites/personal/load-awesome-relative/css/cube-transition.styl */
+  100% {
+    top: 0;
+    left: 0;
+    transform: scale(1) rotate(-360deg);
+  }
+}
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire,
+.la-fire > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 0;
+  border-radius: 2px;
+  transform: translateY(0) translateX(-50%) rotate(45deg) scale(0);
+  animation: fire-diamonds 1.5s infinite linear;
+}
+
+/* line 42 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire >div:nth-child(1) {
+  animation-delay: -0.85s;
+}
+
+/* line 45 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire >div:nth-child(2) {
+  animation-delay: -1.85s;
+}
+
+/* line 48 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire >div:nth-child(3) {
+  animation-delay: -2.85s;
+}
+
+/* line 51 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-sm {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 55 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-sm >div {
+  width: 6px;
+  height: 6px;
+}
+
+/* line 59 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-2x {
+  width: 64px;
+  height: 64px;
+}
+
+/* line 63 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-2x >div {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 67 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-3x {
+  width: 96px;
+  height: 96px;
+}
+
+/* line 71 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+.la-fire.la-3x >div {
+  width: 36px;
+  height: 36px;
+}
+
+/* line 75 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+/*
+ * Animation
+ */
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+@-moz-keyframes fire-diamonds {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  0% {
+    transform: translateY(75%) translateX(-50%) rotate(45deg) scale(0);
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  50% {
+    transform: translateY(-87.5%) translateX(-50%) rotate(45deg) scale(1);
+  }
+
+/* line 86 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  100% {
+    transform: translateY(-212.5%) translateX(-50%) rotate(45deg) scale(0);
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+@-webkit-keyframes fire-diamonds {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  0% {
+    transform: translateY(75%) translateX(-50%) rotate(45deg) scale(0);
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  50% {
+    transform: translateY(-87.5%) translateX(-50%) rotate(45deg) scale(1);
+  }
+
+/* line 86 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  100% {
+    transform: translateY(-212.5%) translateX(-50%) rotate(45deg) scale(0);
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+@-o-keyframes fire-diamonds {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  0% {
+    transform: translateY(75%) translateX(-50%) rotate(45deg) scale(0);
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  50% {
+    transform: translateY(-87.5%) translateX(-50%) rotate(45deg) scale(1);
+  }
+
+/* line 86 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  100% {
+    transform: translateY(-212.5%) translateX(-50%) rotate(45deg) scale(0);
+  }
+}
+
+/* line 79 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+@keyframes fire-diamonds {
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  0% {
+    transform: translateY(75%) translateX(-50%) rotate(45deg) scale(0);
+  }
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  50% {
+    transform: translateY(-87.5%) translateX(-50%) rotate(45deg) scale(1);
+  }
+
+/* line 86 : /home/samps/sites/personal/load-awesome-relative/css/fire.styl */
+  100% {
+    transform: translateY(-212.5%) translateX(-50%) rotate(45deg) scale(0);
+  }
+}
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman,
+.la-pacman > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+}
+
+/* line 33 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman >div:nth-child(2) {
+  margin-top: -32px;
+  animation-name: pacman-rotate-half-down;
+}
+
+/* line 37 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman >div:nth-child(3) {
+  animation-delay: -1.44s;
+}
+
+/* line 40 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman >div:nth-child(4) {
+  animation-delay: -1.94s;
+}
+
+/* line 43 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman >div:nth-child(5) {
+  animation-delay: -2.44s;
+}
+
+/* line 46 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman >div:nth-child(6) {
+  animation-delay: -2.94s;
+}
+
+/* line 49 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-sm {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 53 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+
+/* line 54 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-sm >div:nth-child(2) {
+  margin-top: -16px;
+}
+
+/* line 57 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-2x {
+  width: 64px;
+  height: 64px;
+}
+
+/* line 61 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+
+/* line 62 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-2x >div:nth-child(2) {
+  margin-top: -64px;
+}
+
+/* line 65 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-3x {
+  width: 96px;
+  height: 96px;
+}
+
+/* line 69 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+
+/* line 70 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-3x >div:nth-child(2) {
+  margin-top: -96px;
+}
+
+/* line 73 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman > div:nth-child(1),
+.la-pacman > div:nth-child(2) {
+  width: 0;
+  height: 0;
+  background: transparent;
+  border-style: solid;
+  border-width: 16px;
+  border-right-color: transparent;
+  border-radius: 100%;
+  animation: pacman-rotate-half-up 0.5s 0s infinite;
+}
+
+/* line 84 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman > div:nth-child(3),
+.la-pacman > div:nth-child(4),
+.la-pacman > div:nth-child(5),
+.la-pacman > div:nth-child(6) {
+  position: absolute;
+  top: 50%;
+  left: 200%;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  opacity: 0;
+  animation: pacman-balls 2s 0s infinite linear;
+}
+
+/* line 97 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-sm > div:nth-child(1),
+.la-pacman.la-sm > div:nth-child(2) {
+  border-width: 8px;
+}
+
+/* line 101 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-sm > div:nth-child(3),
+.la-pacman.la-sm > div:nth-child(4),
+.la-pacman.la-sm > div:nth-child(5),
+.la-pacman.la-sm > div:nth-child(6) {
+  width: 4px;
+  height: 4px;
+}
+
+/* line 108 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-2x > div:nth-child(1),
+.la-pacman.la-2x > div:nth-child(2) {
+  border-width: 32px;
+}
+
+/* line 112 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-2x > div:nth-child(3),
+.la-pacman.la-2x > div:nth-child(4),
+.la-pacman.la-2x > div:nth-child(5),
+.la-pacman.la-2x > div:nth-child(6) {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 119 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-3x > div:nth-child(1),
+.la-pacman.la-3x > div:nth-child(2) {
+  border-width: 48px;
+}
+
+/* line 123 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+.la-pacman.la-3x > div:nth-child(3),
+.la-pacman.la-3x > div:nth-child(4),
+.la-pacman.la-3x > div:nth-child(5),
+.la-pacman.la-3x > div:nth-child(6) {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 130 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+/*
+ * Animations
+ */
+
+/* line 134 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+@-moz-keyframes pacman-rotate-half-up {
+
+/* line 135 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  0% {
+    transform: rotate(270deg);
+  }
+
+/* line 138 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 134 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+@-webkit-keyframes pacman-rotate-half-up {
+
+/* line 135 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  0% {
+    transform: rotate(270deg);
+  }
+
+/* line 138 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 134 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+@-o-keyframes pacman-rotate-half-up {
+
+/* line 135 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  0% {
+    transform: rotate(270deg);
+  }
+
+/* line 138 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 134 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+@keyframes pacman-rotate-half-up {
+
+/* line 135 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  0% {
+    transform: rotate(270deg);
+  }
+
+/* line 138 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 141 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+@-moz-keyframes pacman-rotate-half-down {
+
+/* line 142 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  0% {
+    transform: rotate(90deg);
+  }
+
+/* line 145 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  50% {
+    transform: rotate(0deg);
+  }
+}
+
+/* line 141 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+@-webkit-keyframes pacman-rotate-half-down {
+
+/* line 142 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  0% {
+    transform: rotate(90deg);
+  }
+
+/* line 145 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  50% {
+    transform: rotate(0deg);
+  }
+}
+
+/* line 141 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+@-o-keyframes pacman-rotate-half-down {
+
+/* line 142 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  0% {
+    transform: rotate(90deg);
+  }
+
+/* line 145 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  50% {
+    transform: rotate(0deg);
+  }
+}
+
+/* line 141 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+@keyframes pacman-rotate-half-down {
+
+/* line 142 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  0% {
+    transform: rotate(90deg);
+  }
+
+/* line 145 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  50% {
+    transform: rotate(0deg);
+  }
+}
+
+/* line 148 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+@-moz-keyframes pacman-balls {
+
+/* line 149 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  0% {
+    left: 200%;
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+
+/* line 154 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  5% {
+    opacity: 0.5;
+  }
+
+/* line 157 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  66% {
+    opacity: 1;
+  }
+
+/* line 160 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  67% {
+    opacity: 0;
+  }
+
+/* line 163 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  100% {
+    left: 0;
+    transform: translateY(-50%);
+  }
+}
+
+/* line 148 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+@-webkit-keyframes pacman-balls {
+
+/* line 149 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  0% {
+    left: 200%;
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+
+/* line 154 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  5% {
+    opacity: 0.5;
+  }
+
+/* line 157 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  66% {
+    opacity: 1;
+  }
+
+/* line 160 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  67% {
+    opacity: 0;
+  }
+
+/* line 163 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  100% {
+    left: 0;
+    transform: translateY(-50%);
+  }
+}
+
+/* line 148 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+@-o-keyframes pacman-balls {
+
+/* line 149 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  0% {
+    left: 200%;
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+
+/* line 154 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  5% {
+    opacity: 0.5;
+  }
+
+/* line 157 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  66% {
+    opacity: 1;
+  }
+
+/* line 160 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  67% {
+    opacity: 0;
+  }
+
+/* line 163 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  100% {
+    left: 0;
+    transform: translateY(-50%);
+  }
+}
+
+/* line 148 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+@keyframes pacman-balls {
+
+/* line 149 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  0% {
+    left: 200%;
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+
+/* line 154 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  5% {
+    opacity: 0.5;
+  }
+
+/* line 157 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  66% {
+    opacity: 1;
+  }
+
+/* line 160 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  67% {
+    opacity: 0;
+  }
+
+/* line 163 : /home/samps/sites/personal/load-awesome-relative/css/pacman.styl */
+  100% {
+    left: 0;
+    transform: translateY(-50%);
+  }
+}
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer,
+.la-timer > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 24 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-dark {
+  color: #333;
+}
+
+/* line 27 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border-width: 2px;
+  border-radius: 100%;
+}
+
+/* line 38 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer >div:before {
+  height: 12px;
+}
+
+/* line 41 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer >div:after {
+  height: 8px;
+  animation-duration: 15s;
+  animation-delay: -7.5s;
+}
+
+/* line 46 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-sm {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 50 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-sm >div {
+  width: 16px;
+  height: 16px;
+  border-width: 1px;
+}
+
+/* line 55 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-sm >div:before {
+  height: 6px;
+}
+
+/* line 58 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-sm >div:after {
+  height: 4px;
+}
+
+/* line 61 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-2x {
+  width: 64px;
+  height: 64px;
+}
+
+/* line 65 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-2x >div {
+  width: 64px;
+  height: 64px;
+  border-width: 4px;
+}
+
+/* line 70 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-2x >div:before {
+  height: 24px;
+}
+
+/* line 73 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-2x >div:after {
+  height: 16px;
+}
+
+/* line 76 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-3x {
+  width: 96px;
+  height: 96px;
+}
+
+/* line 80 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-3x >div {
+  width: 96px;
+  height: 96px;
+  border-width: 6px;
+}
+
+/* line 85 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-3x >div:before {
+  height: 36px;
+}
+
+/* line 88 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-3x >div:after {
+  height: 24px;
+}
+
+/* line 91 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer > div:before,
+.la-timer > div:after {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  display: block;
+  width: 2px;
+  margin-top: -1px;
+  margin-left: -1px;
+  content: "";
+  background: currentColor;
+  border-radius: 2px;
+  transform-origin: 1px 1px 0;
+  animation: timer-loader 1250ms infinite linear;
+  animation-delay: -625ms;
+}
+
+/* line 107 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-sm > div:before,
+.la-timer.la-sm > div:after {
+  top: 7px;
+  left: 7px;
+  width: 1px;
+  margin-top: -0.5px;
+  margin-left: -0.5px;
+  border-radius: 1px;
+  transform-origin: 0.5px 0.5px 0;
+}
+
+/* line 117 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-2x > div:before,
+.la-timer.la-2x > div:after {
+  top: 28px;
+  left: 28px;
+  width: 4px;
+  margin-top: -2px;
+  margin-left: -2px;
+  border-radius: 4px;
+  transform-origin: 2px 2px 0;
+}
+
+/* line 127 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+.la-timer.la-3x > div:before,
+.la-timer.la-3x > div:after {
+  top: 42px;
+  left: 42px;
+  width: 6px;
+  margin-top: -3px;
+  margin-left: -3px;
+  border-radius: 6px;
+  transform-origin: 3px 3px 0;
+}
+
+/* line 137 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+/*
+ * Animation
+ */
+
+/* line 141 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+@-moz-keyframes timer-loader {
+
+/* line 142 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 145 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 141 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+@-webkit-keyframes timer-loader {
+
+/* line 142 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 145 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 141 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+@-o-keyframes timer-loader {
+
+/* line 142 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 145 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 141 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+@keyframes timer-loader {
+
+/* line 142 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+  0% {
+    transform: rotate(0deg);
+  }
+
+/* line 145 : /home/samps/sites/personal/load-awesome-relative/css/timer.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}

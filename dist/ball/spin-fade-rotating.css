@@ -1,0 +1,258 @@
+
+/* line 297 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+/*
+ * Load Awesome Relative v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Copyright 2018 Sampson Crowley <@SampsonCrowley>
+ * Licensed under MIT
+ */
+
+/* line 29 : /home/samps/sites/personal/load-awesome-relative/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/samps/sites/personal/load-awesome-relative/css/mixins/add-view.styl */
+
+/* line 12 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating,
+.la-ball-spin-fade-rotating > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 17 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  animation: ball-spin-fade-rotate 6s infinite linear;
+}
+
+/* line 25 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating.la-dark {
+  color: #333;
+}
+
+/* line 28 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating >div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  margin-left: -4px;
+  border-radius: 100%;
+  animation: ball-spin-fade 1s infinite linear;
+}
+
+/* line 43 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating >div:nth-child(1) {
+  top: 5%;
+  left: 50%;
+  animation-delay: -1.125s;
+}
+
+/* line 48 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating >div:nth-child(2) {
+  top: 18.1801948466%;
+  left: 81.8198051534%;
+  animation-delay: -1.25s;
+}
+
+/* line 53 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating >div:nth-child(3) {
+  top: 50%;
+  left: 95%;
+  animation-delay: -1.375s;
+}
+
+/* line 58 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating >div:nth-child(4) {
+  top: 81.8198051534%;
+  left: 81.8198051534%;
+  animation-delay: -1.5s;
+}
+
+/* line 63 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating >div:nth-child(5) {
+  top: 94.9999999966%;
+  left: 50.0000000005%;
+  animation-delay: -1.625s;
+}
+
+/* line 68 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating >div:nth-child(6) {
+  top: 81.8198046966%;
+  left: 18.1801949248%;
+  animation-delay: -1.75s;
+}
+
+/* line 73 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating >div:nth-child(7) {
+  top: 49.9999750815%;
+  left: 5.0000051215%;
+  animation-delay: -1.875s;
+}
+
+/* line 78 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating >div:nth-child(8) {
+  top: 18.179464974%;
+  left: 18.1803700518%;
+  animation-delay: -2s;
+}
+
+/* line 83 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating.la-sm {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 87 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating.la-sm >div {
+  width: 4px;
+  height: 4px;
+  margin-top: -2px;
+  margin-left: -2px;
+}
+
+/* line 93 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating.la-2x {
+  width: 64px;
+  height: 64px;
+}
+
+/* line 97 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating.la-2x >div {
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+/* line 103 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating.la-3x {
+  width: 96px;
+  height: 96px;
+}
+
+/* line 107 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+.la-ball-spin-fade-rotating.la-3x >div {
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+  margin-left: -12px;
+}
+
+/* line 113 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+/*
+ * Animations
+ */
+
+/* line 117 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+@-moz-keyframes ball-spin-fade-rotate {
+
+/* line 118 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 117 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+@-webkit-keyframes ball-spin-fade-rotate {
+
+/* line 118 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 117 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+@-o-keyframes ball-spin-fade-rotate {
+
+/* line 118 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 117 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+@keyframes ball-spin-fade-rotate {
+
+/* line 118 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 121 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+@-moz-keyframes ball-spin-fade {
+
+/* line 122 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+/* line 126 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+  50% {
+    opacity: 0.25;
+    transform: scale(0.5);
+  }
+}
+
+/* line 121 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+@-webkit-keyframes ball-spin-fade {
+
+/* line 122 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+/* line 126 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+  50% {
+    opacity: 0.25;
+    transform: scale(0.5);
+  }
+}
+
+/* line 121 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+@-o-keyframes ball-spin-fade {
+
+/* line 122 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+/* line 126 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+  50% {
+    opacity: 0.25;
+    transform: scale(0.5);
+  }
+}
+
+/* line 121 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+@keyframes ball-spin-fade {
+
+/* line 122 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+/* line 126 : /home/samps/sites/personal/load-awesome-relative/css/ball-spin-fade-rotating.styl */
+  50% {
+    opacity: 0.25;
+    transform: scale(0.5);
+  }
+}

@@ -1,16 +1,16 @@
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const glob = require('glob');
 const pkg = require('./package.json');
 const path = require('path');
-const libraryName = pkg.name;
 const moduleName = pkg.moduleName;
 
 module.exports = {
   mode: 'production',
-  entry: path.join(__dirname, "./src/index.js"),
+  entry: glob.sync('./src/**/*.js').reduce((entries, entry) => Object.assign(entries, {[entry.replace('./src/', '').replace('.js', '')]: entry}), {}),
   output: {
     path: path.join(__dirname, './dist'),
-    filename: libraryName + '.js',
+    filename: '[name].js',
     library: moduleName ,
     libraryTarget: 'umd',
     publicPath: '/dist/',
@@ -18,7 +18,7 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin({
-      filename: libraryName + '.css',
+      filename: '[name].css',
     }),
   ],
   node: {

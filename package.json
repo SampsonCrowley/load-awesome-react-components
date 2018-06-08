@@ -1,7 +1,7 @@
 {
   "name": "load-awesome-react-components",
   "moduleName": "loadAwesomeReactComponents",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "description": "React Components for Load Awesome Spinners",
   "main": "dist/load-awesome-react-components.js",
   "module": "src/index.js",
@@ -39,6 +39,7 @@
   "homepage": "https://github.com/SampsonCrowley/load-awesome-react-components#readme",
   "peerDependencies": {
     "load-awesome-relative": ">=0.0.3",
+    "prop-types": ">=15.6.1",
     "react": ">=16.2.0",
     "react-dom": ">=16.2.0"
   },
@@ -61,7 +62,7 @@
     "load-awesome-relative": ">=0.0.3",
     "node-sass": "^4.7.2",
     "postcss-scss": "^1.0.3",
-    "prop-types": "^15.6.1",
+    "prop-types": ">=15.6.1",
     "react": ">=16.2.0",
     "react-dom": ">=16.2.0",
     "react-test-renderer": "^16.2.0",

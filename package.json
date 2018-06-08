@@ -1,6 +1,6 @@
 {
   "name": "load-awesome-react-components",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React Components for Load Awesome Spinners",
   "main": "build/rrpm.js",
   "module": "build/rrpm.module.js",
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/SampsonCrowley/load-awesome-react-components#readme",
   "dependencies": {
     "clone": "^2.1.1",
-    "load-awesome-relative": "^0.0.2",
+    "load-awesome-relative": "^0.0.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
@@ -43,7 +43,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
-    "classnames": "^2.2.5",
+    "classnames": "^2.2.6",
     "css-loader": "^0.28.9",
     "jest": "^23.1.0",
     "node-sass": "^4.7.2",

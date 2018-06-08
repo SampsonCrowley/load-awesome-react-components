@@ -8,30 +8,10 @@ import postcss from 'rollup-plugin-postcss';
 
 export default {
   input: './src/index.js',
-  moduleName: 'LoadAwesomeReactComponents',
-  sourcemap: true,
-
-  // output: {
-  //   file: './build/rrpm.js',
-  //   format: 'umd',
-  //   name: 'LoadAwesomeReactComponents',
-  //   sourcemap: true
-  // },
-
-  targets: [
-    {
-      dest: './build/rrpm.js',
-      format: 'umd'
-    },
-    {
-      dest: 'build/rrpm.module.js',
-      format: 'es'
-    }
-  ],
 
   plugins: [
     postcss({
-      modules: true
+      modules: false
     }),
     babel({
       exclude: 'node_modules/**'
@@ -45,8 +25,26 @@ export default {
 
   external: ['react', 'react-dom'],
 
-  globals: {
-    react: 'React',
-    'react-dom': 'ReactDOM'
-  }
+  output: [
+    {
+      file: './build/rrpm.js',
+      format: 'umd',
+      globals: {
+        react: 'React',
+        'react-dom': 'ReactDOM'
+      },
+      name: 'LoadAwesomeReactComponents',
+      sourcemap: true
+    },
+    {
+      file: 'build/rrpm.module.js',
+      format: 'es',
+      globals: {
+        react: 'React',
+        'react-dom': 'ReactDOM'
+      },
+      name: 'LoadAwesomeReactComponents',
+      sourcemap: true
+    },
+  ]
 };

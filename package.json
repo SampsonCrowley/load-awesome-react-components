@@ -1,7 +1,7 @@
 {
   "name": "load-awesome-react-components",
   "moduleName": "LoadAwesomeReactComponents",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "React Components for Load Awesome Spinners",
   "main": "dist/load-awesome-react-components.js",
   "module": "src/index.js",

@@ -4,17 +4,17 @@ const glob = require('glob');
 const pkg = require('./package.json');
 const path = require('path');
 const moduleName = pkg.moduleName;
+const mode = (process.argv.length && process.argv[process.argv.length - 1]) || 'development';
+const files = glob.sync('./src/**/*.js').reduce((entries, entry) => Object.assign(entries, {[entry.replace('./src/', '').replace('.js', '')]: entry}), {})
 
 module.exports = {
-  mode: 'development',
-  entry: glob.sync('./src/**/*.js').reduce((entries, entry) => Object.assign(entries, {[entry.replace('./src/', '').replace('.js', '')]: entry}), {}),
+  mode: mode,
+  entry: files,
   output: {
     path: path.join(__dirname, './dist'),
     filename: '[name].js',
     library: moduleName,
-    libraryTarget: 'umd',
     publicPath: '/dist/',
-    umdNamedDefine: true
   },
   plugins: [
     new ExtractTextPlugin({
@@ -55,7 +55,7 @@ module.exports = {
         test: /\.(js|jsx)$/,
         use: ["babel-loader"],
         include: path.resolve(__dirname, "src"),
-        exclude: /node_modules/,
+        // exclude: /node_modules/,
       },
       {
         test: /\.(eot|ttf|woff|woff2)$/,
@@ -75,31 +75,11 @@ module.exports = {
         'assets': path.resolve(__dirname, 'assets')
       }
     },
-    externals: {
+    externals: [
       // Don't bundle react or react-dom
-      'load-awesome-relative': {
-        commonjs: "load-awesome-relative",
-        commonjs2: "load-awesome-relative",
-        amd: "LoadAwesomeRelative",
-        root: "LoadAwesomeRelative"
-      },
-      'prop-types': {
-        commonjs: "prop-types",
-        commonjs2: "prop-types",
-        amd: "PropTypes",
-        root: "PropTypes"
-      },
-      react: {
-        commonjs: "react",
-        commonjs2: "react",
-        amd: "React",
-        root: "React"
-      },
-      "react-dom": {
-        commonjs: "react-dom",
-        commonjs2: "react-dom",
-        amd: "ReactDOM",
-        root: "ReactDOM"
-      }
-    }
+      'load-awesome-relative',
+      'prop-types',
+      'react',
+      'react-dom'
+    ]
   };

@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import 'load-awesome-relative/css/ball-square-clockwise-spin.css'
 
-export default class SquareClockwiseSpin extends Component {
+export default class SquareClockwiseSpin extends React.Component {
   static propTypes = {
     className: PropTypes.string
   }

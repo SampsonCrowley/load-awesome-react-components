@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import 'load-awesome-relative/css/ball-scale-multiple.css'
 
-export default class ScaleMultiple extends Component {
+export default class ScaleMultiple extends React.Component {
   static propTypes = {
     className: PropTypes.string
   }

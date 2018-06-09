@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import 'load-awesome-relative/css/line-scale.css'
 
-export default class Scale extends Component {
+export default class Scale extends React.Component {
   static propTypes = {
     className: PropTypes.string
   }

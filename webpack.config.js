@@ -4,7 +4,7 @@ const glob = require('glob');
 const pkg = require('./package.json');
 const path = require('path');
 const moduleName = pkg.moduleName;
-const mode = (process.argv.length && process.argv[process.argv.length - 1]) || 'development';
+const mode = (process.argv.length && process.argv[process.argv.length - 1] == 'production') ? 'production' : 'development';
 const files = glob.sync('./src/**/*.js').reduce((entries, entry) => Object.assign(entries, {[entry.replace('./src/', '').replace('.js', '')]: entry}), {})
 
 module.exports = {
@@ -14,6 +14,7 @@ module.exports = {
     path: path.join(__dirname, './dist'),
     filename: '[name].js',
     library: moduleName,
+    libraryTarget: 'umd',
     publicPath: '/dist/',
   },
   plugins: [
@@ -75,11 +76,34 @@ module.exports = {
         'assets': path.resolve(__dirname, 'assets')
       }
     },
-    externals: [
-      // Don't bundle react or react-dom
-      'load-awesome-relative',
-      'prop-types',
-      'react',
-      'react-dom'
-    ]
+    externals: {
+      'load-awesome-relative': {
+        root: "LoadAwesomeRelative",
+        commonjs2: "load-awesome-relative",
+        commonjs: "load-awesome-relative",
+        amd: "load-awesome-relative",
+        umd: "load-awesome-relative",
+      },
+      'prop-types': {
+        root: "PropTypes",
+        commonjs2: "prop-types",
+        commonjs: "prop-types",
+        amd: "prop-types",
+        ump: "prop-types",
+      },
+      react: {
+        root: 'React',
+        commonjs2: 'react',
+        commonjs: 'react',
+        amd: 'react',
+        umd: 'react',
+      },
+      'react-dom': {
+        root: 'ReactDOM',
+        commonjs2: 'react-dom',
+        commonjs: 'react-dom',
+        amd: 'react-dom',
+        umd: 'react-dom',
+      },
+    }
   };

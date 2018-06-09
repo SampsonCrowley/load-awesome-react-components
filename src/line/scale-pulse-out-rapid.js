@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import 'load-awesome-relative/css/line-scale-pulse-out-rapid.css'
 
-export default class ScalePulseOutRapid extends Component {
+export default class ScalePulseOutRapid extends React.Component {
   static propTypes = {
     className: PropTypes.string
   }

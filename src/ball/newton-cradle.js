@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import 'load-awesome-relative/css/ball-newton-cradle.css'
 
-export default class NewtonCradle extends Component {
+export default class NewtonCradle extends React.Component {
   static propTypes = {
     className: PropTypes.string
   }

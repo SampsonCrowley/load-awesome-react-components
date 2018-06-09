@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import 'load-awesome-relative/css/cube-transition.css'
 
-export default class CubeTransition extends Component {
+export default class CubeTransition extends React.Component {
   static propTypes = {
     className: PropTypes.string
   }

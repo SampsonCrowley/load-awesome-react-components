@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import 'load-awesome-relative/css/ball-triangle-path.css'
 
-export default class TrianglePath extends Component {
+export default class TrianglePath extends React.Component {
   static propTypes = {
     className: PropTypes.string
   }

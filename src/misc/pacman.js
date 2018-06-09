@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import 'load-awesome-relative/css/pacman.css'
 
-export default class Pacman extends Component {
+export default class Pacman extends React.Component {
   static propTypes = {
     className: PropTypes.string
   }

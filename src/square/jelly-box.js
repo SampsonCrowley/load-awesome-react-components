@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import 'load-awesome-relative/css/square-jelly-box.css'
 
-export default class JellyBox extends Component {
+export default class JellyBox extends React.Component {
   static propTypes = {
     className: PropTypes.string
   }

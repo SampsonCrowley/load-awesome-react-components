@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import 'load-awesome-relative/css/ball-zig-zag.css'
 
-export default class ZigZag extends Component {
+export default class ZigZag extends React.Component {
   static propTypes = {
     className: PropTypes.string
   }

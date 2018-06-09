@@ -1,5 +1,5 @@
 import React from 'react';
-import Loaders from '../build/rrpm.module';
+import Loaders from '../dist/';
 import renderer from 'react-test-renderer';
 
 const loaderKeys = Object.keys(Loaders)

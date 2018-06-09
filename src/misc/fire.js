@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import 'load-awesome-relative/css/fire.css'
 
-export default class Fire extends Component {
+export default class Fire extends React.Component {
   static propTypes = {
     className: PropTypes.string
   }

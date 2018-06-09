@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import 'load-awesome-relative/css/line-spin-fade-rotating.css'
 
-export default class SpinFadeRotating extends Component {
+export default class SpinFadeRotating extends React.Component {
   static propTypes = {
     className: PropTypes.string
   }
